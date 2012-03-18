@@ -1,0 +1,416 @@
+2012/03/18 22:14:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:14:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:20:31 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "commentCount" is not defined in active record class "Blog".' in /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php:215
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(49): CActiveFinder->buildJoinTree(Object(CJoinElement), 'commentCount')
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1539): CActiveFinder->__construct(Object(Blog), 'commentCount')
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CDataProvider.php(193): CActiveDataProvider->calculateTotalItemCount()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CDataProvider.php(137): CActiveDataProvider->fetchData()
+#6 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CBaseListView.php(105): CDataProvider->getData()
+#7 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CListView.php(173): CBaseListView->init()
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(148): CListView->init()
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 /Applications/MAMP/htdocs/yii-store/protected/views/blog/index.php(7): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#15 /Applications/MAMP/htdocs/yii-store/protected/controllers/BlogController.php(62): CController->render('index', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): BlogController->actionIndex()
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#19 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('blog')
+#22 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#24 {main}
+REQUEST_URI=/blog
+---
+2012/03/18 22:22:57 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "commentCount" is not defined in active record class "Blog".' in /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php:215
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(49): CActiveFinder->buildJoinTree(Object(CJoinElement), 'commentCount')
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1539): CActiveFinder->__construct(Object(Blog), 'commentCount')
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CDataProvider.php(193): CActiveDataProvider->calculateTotalItemCount()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CDataProvider.php(137): CActiveDataProvider->fetchData()
+#6 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CBaseListView.php(105): CDataProvider->getData()
+#7 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CListView.php(173): CBaseListView->init()
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(148): CListView->init()
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 /Applications/MAMP/htdocs/yii-store/protected/views/blog/index.php(7): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#15 /Applications/MAMP/htdocs/yii-store/protected/controllers/BlogController.php(64): CController->render('index', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): BlogController->actionIndex()
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#19 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('blog')
+#22 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#24 {main}
+REQUEST_URI=/blog
+---
+2012/03/18 22:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:25:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:25:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/18 22:27:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:27:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:27:58 [error] [php] include(Users.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/yii-store/framework/YiiBase.php:418)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/protected/controllers/UserController.php(32): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): UserController->actionLogin()
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): UserController->runAction()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): UserController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): UserController->run()
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/yii-store/index.php(28): CWebApplication->run()
+REQUEST_URI=/user/login
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/UserController.php (32)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/18 22:30:02 [error] [php] include(Users.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/yii-store/framework/YiiBase.php:418)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/protected/controllers/UserController.php(32): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): UserController->actionLogin()
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): UserController->runAction()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): UserController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): UserController->run()
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/yii-store/index.php(28): CWebApplication->run()
+REQUEST_URI=/user/login
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/UserController.php (32)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/18 22:30:26 [error] [exception.CException] exception 'CException' with message 'Property "User.rememberMe" is not defined.' in /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(144): CComponent->__get('rememberMe')
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/helpers/CHtml.php(2044): CActiveRecord->__get('rememberMe')
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/helpers/CHtml.php(1347): CHtml::resolveValue(Object(User), 'rememberMe')
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CActiveForm.php(665): CHtml::activeCheckBox(Object(User), 'rememberMe', Array)
+#4 /Applications/MAMP/htdocs/yii-store/protected/views/user/login.php(29): CActiveForm->checkBox(Object(User), 'rememberMe')
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('login', Array, true)
+#9 /Applications/MAMP/htdocs/yii-store/protected/controllers/UserController.php(52): CController->render('login', Array)
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): UserController->actionLogin()
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('login')
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('user/login')
+#16 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#18 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://yii-store/
+---
