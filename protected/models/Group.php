@@ -10,12 +10,13 @@
  */
 class Group extends CActiveRecord
 {
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return Group the static model class
 	 */
-	public static function model($className=__CLASS__)
+	public static function model($className = __CLASS__)
 	{
 		return parent::model($className);
 	}
@@ -38,10 +39,10 @@ class Group extends CActiveRecord
 		return array(
 			array('name', 'required'),
 			array('discount', 'numerical'),
-			array('name', 'length', 'max'=>255),
+			array('name', 'length', 'max' => 255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, discount', 'safe', 'on'=>'search'),
+			array('id, name, discount', 'safe', 'on' => 'search'),
 		);
 	}
 
@@ -53,6 +54,7 @@ class Group extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'users' => array(self::HAS_MANY, 'User', 'group_id'),
 		);
 	}
 
@@ -77,14 +79,15 @@ class Group extends CActiveRecord
 		// Warning: Please modify the following code to remove attributes that
 		// should not be searched.
 
-		$criteria=new CDbCriteria;
+		$criteria = new CDbCriteria;
 
-		$criteria->compare('id',$this->id,true);
-		$criteria->compare('name',$this->name,true);
-		$criteria->compare('discount',$this->discount);
+		$criteria->compare('id', $this->id, true);
+		$criteria->compare('name', $this->name, true);
+		$criteria->compare('discount', $this->discount);
 
 		return new CActiveDataProvider($this, array(
-			'criteria'=>$criteria,
+			'criteria' => $criteria,
 		));
 	}
+
 }

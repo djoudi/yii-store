@@ -92,26 +92,32 @@ class Comment extends CActiveRecord
 	}
 
 	/**
+	 * Default scope
+	 *
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return array(
+			'alias' => $this->tableName(),
+			'order' => 'comment.create_time DESC',
+		);
+	}
+
+	/**
+	 * Is a comment enable?
+	 *
 	 * @return bool
 	 */
 	public function isEnable()
 	{
-		return $this->count(array(
+		return $this->exists(array(
 			'condition' => 'status=:status AND ip=:ip',
 			'params' => array(
 				':status' => self::STATUS_ENABLED,
-				':ip' => $_SERVER['REMOTE_ADDR'],
+				':ip' => Yii::app()->request->userHostAddress,
 			),
 		));
-	}
-
-	/**
-	 * Enables a comment.
-	 */
-	public function enable()
-	{
-		$this->status = self::STATUS_ENABLED;
-		$this->update(array('status'));
 	}
 
 	/**
@@ -129,33 +135,12 @@ class Comment extends CActiveRecord
 	/**
 	 * @return string the hyperlink display for the current comment's author
 	 */
-	public function getAuthorLink()
+	public function getNameLink()
 	{
 		if (!empty($this->url))
-			return CHtml::link(CHtml::encode($this->author), $this->url);
+			return CHtml::link(CHtml::encode($this->name), $this->url);
 		else
-			return CHtml::encode($this->author);
-	}
-
-	/**
-	 * @return integer the number of comments that are pending approval
-	 */
-	public function getPendingCommentCount()
-	{
-		return $this->count('status=' . self::STATUS_DISABLED);
-	}
-
-	/**
-	 * @param integer the maximum number of comments that should be returned
-	 * @return array the most recently added comments
-	 */
-	public function findRecentComments($limit = 10)
-	{
-		return $this->with('post')->findAll(array(
-			'condition' => 't.status=' . self::STATUS_ENABLED,
-			'order' => 't.create_time DESC',
-			'limit' => $limit,
-		));
+			return CHtml::encode($this->name);
 	}
 
 	/**
@@ -167,19 +152,17 @@ class Comment extends CActiveRecord
 		if (parent::beforeSave())
 		{
 			if ($this->isNewRecord)
-				$this->create_time = time();
+			{
+				$this->status = $this->isEnable();
+				$this->create_time = $this->update_time = time();
+				$this->ip = Yii::app()->request->userHostAddress;
+			}
+			else
+				$this->update_time = time();
 			return true;
 		}
 		else
 			return false;
-	}
-
-	/**
-	 * @return CDbCacheDependency
-	 */
-	public function getCacheDependency()
-	{
-		return new CDbCacheDependency('SELECT MAX(`update_time`) FROM ' . $this->tableName());
 	}
 
 	/**

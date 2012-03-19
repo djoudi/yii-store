@@ -2,7 +2,11 @@
 
 return array(
 	'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
+	'defaultController' => 'site',
 	'name' => 'My Yii Store',
+
+	// язык поумолчанию
+	'language' => 'ru',
 
 	// preloading 'log' component
 	'preload' => array('log'),
@@ -19,9 +23,16 @@ return array(
 
 	// application components
 	'components' => array(
+		'taobao' => array(
+			'class' => 'application.extensions.taobao.TopClient',
+			'appkey' => '12033604',
+			'secretKey' => '21067fee0890d5f283d7dd12b2ea7f19',
+			'format' => 'json',
+		),
 		'user' => array(
 			// enable cookie-based authentication
 			'allowAutoLogin' => true,
+			'loginUrl' => array('/user/login'),
 		),
 		'urlManager' => array(
 			'urlFormat' => 'path',

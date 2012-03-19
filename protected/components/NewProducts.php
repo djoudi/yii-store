@@ -18,13 +18,13 @@ class NewProducts extends CPortlet
 	{
 		return Product::model()->findAll(array(
 			'with' => array('variants', 'images'),
-			'condition' => 't.status=' . Product::STATUS_ENABLED,
-			'order' => 't.create_time DESC',
+			'condition' => 'product.status=' . Product::STATUS_ENABLED,
+			'order' => 'product.create_time DESC',
 			'limit' => $this->limit,
 		));
 	}
 
-	public function renderContent()
+	public function run()
 	{
 		$this->render('newProducts');
 	}

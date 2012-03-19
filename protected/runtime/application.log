@@ -414,3 +414,1130 @@ Stack trace:
 REQUEST_URI=/user/login
 HTTP_REFERER=http://yii-store/
 ---
+2012/03/18 22:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 22:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 23:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 23:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 23:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 23:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 23:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/18 23:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 17:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 17:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 18:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 18:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 18:23:13 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.menu_id' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `page` `page` WHERE t.menu_id=1 AND t.status=1 ORDER BY t.position.
+in /Applications/MAMP/htdocs/yii-store/protected/components/PagesMenu.php (25)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/pagesMenu.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/PagesMenu.php (44)
+2012/03/19 18:23:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.menu_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `page` `page` WHERE t.menu_id=1 AND t.status=1 ORDER BY t.position' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/MAMP/htdocs/yii-store/protected/components/PagesMenu.php(25): CActiveRecord->findAll(Array)
+#4 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): PagesMenu->getPages()
+#5 /Applications/MAMP/htdocs/yii-store/protected/components/views/pagesMenu.php(1): CComponent->__get('pages')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#9 /Applications/MAMP/htdocs/yii-store/protected/components/PagesMenu.php(44): CWidget->render('pagesMenu')
+#10 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): PagesMenu->renderContent()
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#12 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(59): CBaseController->widget('PagesMenu')
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#16 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#19 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#23 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#25 {main}
+REQUEST_URI=/
+---
+2012/03/19 18:24:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 18:24:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 18:24:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 18:24:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 18:38:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `page` `page` WHERE status=:status AND url=:url LIMIT 1. Bound with :status=1, :url='/'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/Controller.php (27)
+in /Applications/MAMP/htdocs/yii-store/protected/views/site/index.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (33)
+2012/03/19 18:38:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'url' in 'where clause'. The SQL statement executed was: SELECT * FROM `page` `page` WHERE status=:status AND url=:url LIMIT 1. Bound with :status=1, :url='/'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 /Applications/MAMP/htdocs/yii-store/protected/components/Controller.php(27): CActiveRecord->find(Array)
+#4 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): Controller->getPage()
+#5 /Applications/MAMP/htdocs/yii-store/protected/views/site/index.php(1): CComponent->__get('page')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, true)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', NULL, true)
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#10 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#17 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#19 {main}
+REQUEST_URI=/
+---
+2012/03/19 18:39:45 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. Выполнявшийся SQL-запрос: SELECT * FROM `page` `page` WHERE status=:status AND controller=:url AND action=:action LIMIT 1. Bound with :status=1, :controller='site', :action='index'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/Controller.php (28)
+in /Applications/MAMP/htdocs/yii-store/protected/views/site/index.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (33)
+2012/03/19 18:39:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `page` `page` WHERE status=:status AND controller=:url AND action=:action LIMIT 1. Bound with :status=1, :controller='site', :action='index'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 /Applications/MAMP/htdocs/yii-store/protected/components/Controller.php(28): CActiveRecord->find(Array)
+#4 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): Controller->getPage()
+#5 /Applications/MAMP/htdocs/yii-store/protected/views/site/index.php(1): CComponent->__get('page')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, true)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', NULL, true)
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#10 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#17 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#19 {main}
+REQUEST_URI=/
+---
+2012/03/19 18:40:01 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. Выполнявшийся SQL-запрос: SELECT * FROM `page` `page` WHERE status=:status AND controller=:url AND action=:action LIMIT 1. Bound with :status=1, :controller='site', :action='index'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/Controller.php (28)
+in /Applications/MAMP/htdocs/yii-store/protected/views/site/index.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (33)
+2012/03/19 18:40:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `page` `page` WHERE status=:status AND controller=:url AND action=:action LIMIT 1. Bound with :status=1, :controller='site', :action='index'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 /Applications/MAMP/htdocs/yii-store/protected/components/Controller.php(28): CActiveRecord->find(Array)
+#4 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): Controller->getPage()
+#5 /Applications/MAMP/htdocs/yii-store/protected/views/site/index.php(1): CComponent->__get('page')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, true)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', NULL, true)
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#10 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#17 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#19 {main}
+REQUEST_URI=/
+---
+2012/03/19 18:40:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 18:40:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 19:37:27 [error] [php] include(ShopGetRequest.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/yii-store/framework/YiiBase.php:418)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(73): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionTaobao()
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): SiteController->runAction()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): SiteController->run()
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/yii-store/index.php(28): CWebApplication->run()
+REQUEST_URI=/site/taobao
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (73)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/19 19:38:16 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.top".' in /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/base/CModule.php(106): CComponent->__get('top')
+#1 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(76): CModule->__get('top')
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionTaobao()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('taobao')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('site/taobao')
+#8 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/taobao
+---
+2012/03/19 19:38:40 [error] [application] TOP RESPONSED ERROR:2012-03-19 19:38:40 - {"error_response":{"code":560,"msg":"Remote service error","sub_code":"isv.invalid-parameter:user-without-shop","sub_msg":"用户对应的店铺不存在"}}
+in /Applications/MAMP/htdocs/yii-store/protected/extensions/taobao/TopClient.php (187)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (76)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/19 19:38:52 [error] [application] TOP RESPONSED ERROR:2012-03-19 19:38:52 - {"error_response":{"code":560,"msg":"Remote service error","sub_code":"isv.invalid-parameter:user-without-shop","sub_msg":"用户对应的店铺不存在"}}
+in /Applications/MAMP/htdocs/yii-store/protected/extensions/taobao/TopClient.php (187)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (76)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/19 19:40:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 19:40:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 19:49:17 [error] [application] TOP RESPONSED ERROR:2012-03-19 19:49:17 - {"error_response":{"code":560,"msg":"Remote service error","sub_code":"isv.user-not-exist:invalid-nick","sub_msg":"根据用户昵称:appl-side查询不到对应的用户信息"}}
+in /Applications/MAMP/htdocs/yii-store/protected/extensions/taobao/TopClient.php (187)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (76)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/19 19:53:31 [error] [application] TOP RESPONSED ERROR:2012-03-19 19:53:31 - {"error_response":{"code":40,"msg":"Missing required arguments:fields"}}
+in /Applications/MAMP/htdocs/yii-store/protected/extensions/taobao/TopClient.php (187)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (76)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/19 20:05:48 [error] [php] Undefined property: stdClass::$title (/Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): SiteController->runAction()
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): SiteController->run()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-store/index.php(28): CWebApplication->run()
+REQUEST_URI=/site/taobao?url=http://item.taobao.com/item.htm?id=10838225459
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php (85)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/19 20:16:47 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `blog` `blog` WHERE t.status=1 ORDER BY t.create_time DESC, create_time DESC LIMIT 5.
+in /Applications/MAMP/htdocs/yii-store/protected/models/Blog.php (141)
+in /Applications/MAMP/htdocs/yii-store/protected/components/RecentPosts.php (27)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/recentPosts.php (1)
+2012/03/19 20:16:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. The SQL statement executed was: SELECT * FROM `blog` `blog` WHERE t.status=1 ORDER BY t.create_time DESC, create_time DESC LIMIT 5' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/MAMP/htdocs/yii-store/protected/models/Blog.php(141): CActiveRecord->findAll(Array)
+#4 /Applications/MAMP/htdocs/yii-store/protected/components/RecentPosts.php(27): Blog->findRecentPosts(5)
+#5 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): RecentPosts->getPosts()
+#6 /Applications/MAMP/htdocs/yii-store/protected/components/views/recentPosts.php(1): CComponent->__get('posts')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#10 /Applications/MAMP/htdocs/yii-store/protected/components/RecentPosts.php(35): CWidget->render('recentPosts')
+#11 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): RecentPosts->renderContent()
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#13 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(145): CBaseController->widget('RecentPosts', Array)
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#17 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#19 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#23 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#24 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#26 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:18:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:18:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:33:32 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `brand` `brand` WHERE t.status=1 ORDER BY t.name, brand.name.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrandsMenu.php (20)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/brandsMenu.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrandsMenu.php (25)
+2012/03/19 20:33:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. The SQL statement executed was: SELECT * FROM `brand` `brand` WHERE t.status=1 ORDER BY t.name, brand.name' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/MAMP/htdocs/yii-store/protected/components/BrandsMenu.php(20): CActiveRecord->findAll(Array)
+#4 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrandsMenu->getBrands()
+#5 /Applications/MAMP/htdocs/yii-store/protected/components/views/brandsMenu.php(1): CComponent->__get('brands')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#9 /Applications/MAMP/htdocs/yii-store/protected/components/BrandsMenu.php(25): CWidget->render('brandsMenu')
+#10 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrandsMenu->renderContent()
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#12 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(129): CBaseController->widget('BrandsMenu')
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#16 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#19 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#23 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#25 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:34:19 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. Выполнявшийся SQL-запрос: SELECT * FROM `brand` `brand` WHERE t.status=1 ORDER BY t.name, brand.name.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrandsMenu.php (20)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/brandsMenu.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrandsMenu.php (25)
+2012/03/19 20:34:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. The SQL statement executed was: SELECT * FROM `brand` `brand` WHERE t.status=1 ORDER BY t.name, brand.name' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/MAMP/htdocs/yii-store/protected/components/BrandsMenu.php(20): CActiveRecord->findAll(Array)
+#4 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrandsMenu->getBrands()
+#5 /Applications/MAMP/htdocs/yii-store/protected/components/views/brandsMenu.php(1): CComponent->__get('brands')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#9 /Applications/MAMP/htdocs/yii-store/protected/components/BrandsMenu.php(25): CWidget->render('brandsMenu')
+#10 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrandsMenu->renderContent()
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#12 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(129): CBaseController->widget('BrandsMenu')
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#16 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#19 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#23 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#25 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:34:38 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((t.status=1) AND (t.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (36)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (44)
+2012/03/19 20:34:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((t.status=1) AND (t.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(818): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(36): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrowsedProducts->getProducts()
+#8 /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php(1): CComponent->__get('products')
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#12 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(44): CWidget->render('browsedProducts')
+#13 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrowsedProducts->renderContent()
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#15 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(139): CBaseController->widget('BrowsedProducts', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#19 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#23 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#25 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#26 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:36:01 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (36)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (44)
+2012/03/19 20:36:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(818): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(36): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrowsedProducts->getProducts()
+#8 /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php(1): CComponent->__get('products')
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#12 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(44): CWidget->render('browsedProducts')
+#13 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrowsedProducts->renderContent()
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#15 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(139): CBaseController->widget('BrowsedProducts', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#19 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#23 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#25 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#26 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:36:44 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (36)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (44)
+2012/03/19 20:36:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(818): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(36): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrowsedProducts->getProducts()
+#8 /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php(1): CComponent->__get('products')
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#12 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(44): CWidget->render('browsedProducts')
+#13 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrowsedProducts->renderContent()
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#15 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(139): CBaseController->widget('BrowsedProducts', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#19 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#23 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#25 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#26 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:37:56 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variants.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (36)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (44)
+2012/03/19 20:37:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variants.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(818): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(36): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrowsedProducts->getProducts()
+#8 /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php(1): CComponent->__get('products')
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#12 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(44): CWidget->render('browsedProducts')
+#13 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrowsedProducts->renderContent()
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#15 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(139): CBaseController->widget('BrowsedProducts', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#19 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#23 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#25 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#26 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:38:08 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (36)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (44)
+2012/03/19 20:38:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(818): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(36): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrowsedProducts->getProducts()
+#8 /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php(1): CComponent->__get('products')
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#12 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(44): CWidget->render('browsedProducts')
+#13 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrowsedProducts->renderContent()
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#15 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(139): CBaseController->widget('BrowsedProducts', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#19 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#23 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#25 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#26 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:38:09 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (36)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (44)
+2012/03/19 20:38:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(818): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(36): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrowsedProducts->getProducts()
+#8 /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php(1): CComponent->__get('products')
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#12 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(44): CWidget->render('browsedProducts')
+#13 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrowsedProducts->renderContent()
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#15 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(139): CBaseController->widget('BrowsedProducts', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#19 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#23 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#25 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#26 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:38:09 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'.
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (36)
+in /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php (1)
+in /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php (44)
+2012/03/19 20:38:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'variants.position' in 'order clause'. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`url` AS `t0_c1`, `product`.`brand_id` AS `t0_c2`, `product`.`name` AS `t0_c3`, `product`.`annotation` AS `t0_c4`, `product`.`body` AS `t0_c5`, `product`.`status` AS `t0_c6`, `product`.`position` AS `t0_c7`, `product`.`meta_title` AS `t0_c8`, `product`.`meta_keywords` AS `t0_c9`, `product`.`meta_description` AS `t0_c10`, `product`.`create_time` AS `t0_c11`, `product`.`update_time` AS `t0_c12`, `product`.`featured` AS `t0_c13`, `variant`.`id` AS `t1_c0`, `variant`.`product_id` AS `t1_c1`, `variant`.`sku` AS `t1_c2`, `variant`.`name` AS `t1_c3`, `variant`.`price` AS `t1_c4`, `variant`.`compare_price` AS `t1_c5`, `variant`.`stock` AS `t1_c6`, `variant`.`position` AS `t1_c7`, `variant`.`attachment` AS `t1_c8`, `image`.`id` AS `t2_c0`, `image`.`name` AS `t2_c1`, `image`.`product_id` AS `t2_c2`, `image`.`file` AS `t2_c3`, `image`.`position` AS `t2_c4` FROM `product` `product`  LEFT OUTER JOIN `variant` `variant` ON (`variant`.`product_id`=`product`.`id`)  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status=1) AND (product.id IN (:ycp0, :ycp1, :ycp2, :ycp3, :ycp4, :ycp5, :ycp6))) ORDER BY product.position, variant.position, variants.position DESC, image.position, images.position DESC. Bound with :ycp0='14', :ycp1='3', :ycp2='17', :ycp3='4', :ycp4='34', :ycp5='36', :ycp6='8'' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(818): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(36): CActiveRecord->findAll(Object(CDbCriteria))
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): BrowsedProducts->getProducts()
+#8 /Applications/MAMP/htdocs/yii-store/protected/components/views/browsedProducts.php(1): CComponent->__get('products')
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(131): require('/Applications/M...')
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, false)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/Applications/M...', NULL, false)
+#12 /Applications/MAMP/htdocs/yii-store/protected/components/BrowsedProducts.php(44): CWidget->render('browsedProducts')
+#13 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CPortlet.php(95): BrowsedProducts->renderContent()
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(174): CPortlet->run()
+#15 /Applications/MAMP/htdocs/yii-store/protected/views/layouts/main.php(139): CBaseController->widget('BrowsedProducts', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(785): CBaseController->renderFile('/Applications/M...', Array, true)
+#19 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#22 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#23 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#25 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#26 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#28 {main}
+REQUEST_URI=/
+---
+2012/03/19 20:38:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:38:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:40:28 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchColumn(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. Выполнявшийся SQL-запрос: SELECT COUNT(*) FROM `blog` `blog` WHERE t.status=1.
+in /Applications/MAMP/htdocs/yii-store/protected/views/blog/index.php (7)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/BlogController.php (63)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/19 20:40:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.status' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `blog` `blog` WHERE t.status=1' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(1536): CDbCommand->queryScalar()
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CDataProvider.php(193): CActiveDataProvider->calculateTotalItemCount()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CDataProvider.php(137): CActiveDataProvider->fetchData()
+#6 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CBaseListView.php(105): CDataProvider->getData()
+#7 /Applications/MAMP/htdocs/yii-store/framework/zii/widgets/CListView.php(173): CBaseListView->init()
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(148): CListView->init()
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 /Applications/MAMP/htdocs/yii-store/protected/views/blog/index.php(7): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#15 /Applications/MAMP/htdocs/yii-store/protected/controllers/BlogController.php(63): CController->render('index', Array)
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): BlogController->actionIndex()
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#19 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('blog')
+#22 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#24 {main}
+REQUEST_URI=/blog
+---
+2012/03/19 20:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/19 20:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/19 20:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/19 20:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/19 20:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/19 20:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/19 20:49:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/19 20:49:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/blog
+---
+2012/03/19 20:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:49:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:49:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:50:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:50:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:52:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:52:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 20:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---

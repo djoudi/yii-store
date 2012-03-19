@@ -67,4 +67,22 @@ class SiteController extends Controller
 		$this->render('contact', array('model' => $model));
 	}
 
+	public function actionTaobao()
+	{
+		if (isset($_GET['url']))
+		{
+			$url = parse_url($_GET['url'], PHP_URL_QUERY);
+			parse_str($url, $urlParts);
+
+			if (isset($urlParts['id']) AND is_numeric($urlParts['id']))
+			{
+				Yii::import('application.extensions.taobao.request.*');
+				$request = new ItemGetRequest();
+				$request->setNumIid($urlParts['id']);
+				$request->setFields('title,price');
+				$shop = Yii::app()->taobao->execute($request);
+				var_dump($shop);
+			}
+		}
+	}
 }

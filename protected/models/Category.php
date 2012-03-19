@@ -93,6 +93,20 @@ class Category extends CActiveRecord
 			'update_time' => 'Update Time',
 		);
 	}
+
+	/**
+	 * Default scope
+	 *
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return array(
+			'alias' => $this->tableName(),
+			'order' => 'category.parent_id, category.position',
+		);
+	}
+
 	/**
 	 * @return string the URL that shows the detail of the post
 	 */
@@ -102,6 +116,7 @@ class Category extends CActiveRecord
 			'url' => $this->url,
 		));
 	}
+
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
 	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
@@ -131,4 +146,5 @@ class Category extends CActiveRecord
 			'criteria' => $criteria,
 		));
 	}
+
 }

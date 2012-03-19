@@ -19,10 +19,11 @@ class Controller extends CController
 	public function getPage()
 	{
 		$page = Page::model()->find(array(
-			'condition' => 'status=:status AND url=:url',
+			'condition' => 'status=:status AND controller=:controller AND action=:action',
 			'params' => array(
 				':status' => Page::STATUS_ENABLED,
-				':url' => Yii::app()->request->url,
+				':controller' => $this->id,
+				':action' => $this->action->id,
 			),
 		));
 

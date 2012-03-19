@@ -30,8 +30,8 @@ class BrowsedProducts extends CPortlet
 
 			$criteria = new CDbCriteria;
 			$criteria->with = array('variants', 'images');
-			$criteria->condition = 't.status=' . Product::STATUS_ENABLED;
-			$criteria->addInCondition('t.id', $browsedProductsIds);
+			$criteria->condition = 'product.status=' . Product::STATUS_ENABLED;
+			$criteria->addInCondition('product.id', $browsedProductsIds);
 
 			$products = Product::model()->findAll($criteria);
 		}
@@ -39,7 +39,7 @@ class BrowsedProducts extends CPortlet
 		return $products;
 	}
 
-	public function renderContent()
+	public function run()
 	{
 		$this->render('browsedProducts');
 	}

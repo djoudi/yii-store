@@ -16,17 +16,17 @@ class DiscountedProducts extends CPortlet
 
 	public function getProducts()
 	{
-		$discountedQuery = new CDbExpression('(SELECT 1 FROM variant v WHERE v.product_id=t.id AND v.compare_price>0 LIMIT 1) = 1');
+		$discountedQuery = new CDbExpression('(SELECT 1 FROM variant variant WHERE variant.product_id=product.id AND variant.compare_price>0 LIMIT 1) = 1');
 
 		return Product::model()->findAll(array(
 			'with' => array('variants', 'images'),
-			'condition' => 't.status=1 AND ' . $discountedQuery,
-			'order' => 't.create_time DESC',
+			'condition' => 'product.status=1 AND ' . $discountedQuery,
+			'order' => 'product.create_time DESC',
 			'limit' => $this->limit,
 		));
 	}
 
-	public function renderContent()
+	public function run()
 	{
 		$this->render('discountedProducts');
 	}

@@ -20,8 +20,11 @@ class PagesMenu extends CPortlet
 	public function getPages()
 	{
 		$pages = Page::model()->findAll(array(
-			'condition' => 't.menu_id=1 AND t.status=1',
-			'order' => 't.position',
+			'condition' => 'page.menu_id=:menu_id AND page.status=:status',
+			'params' => array(
+				':menu_id' => 1,
+				':status' => Page::STATUS_ENABLED,
+			),
 		));
 
 		$menu = array();
@@ -39,7 +42,7 @@ class PagesMenu extends CPortlet
 	/**
 	 * Отображение портлета
 	 */
-	public function renderContent()
+	public function run()
 	{
 		$this->render('pagesMenu');
 	}

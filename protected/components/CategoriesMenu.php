@@ -15,14 +15,13 @@ class CategoriesMenu extends CPortlet
 	public function getCategories()
 	{
 		$categories = Category::model()->findAll(array(
-			'condition' => 't.status=' . Category::STATUS_ENABLED,
-			'order' => 't.parent_id, t.position',
+			'condition' => 'category.status=' . Category::STATUS_ENABLED,
 		));
 
 		return $this->_getItems($categories, 0);
 	}
 
-	public function renderContent()
+	public function run()
 	{
 		$this->render('categoriesMenu');
 	}

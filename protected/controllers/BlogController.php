@@ -26,7 +26,7 @@ class BlogController extends Controller
 	public function actionView($url)
 	{
 		$model = Blog::model()->find(array(
-			'condition' => 't.status=:status AND t.url=:url',
+			'condition' => 'blog.status=:status AND blog.url=:url',
 			'params' => array(
 				':status' => Blog::STATUS_ENABLED,
 				':url' => $url,
@@ -50,8 +50,8 @@ class BlogController extends Controller
 	{
 		$dataProvider = new CActiveDataProvider('Blog', array(
 			'criteria' => array(
-				'condition' => 't.status=' . Blog::STATUS_ENABLED,
-				'order' => 't.create_time DESC',
+				'condition' => 'blog.status=:status',
+				'params' => array(':status' => Blog::STATUS_ENABLED),
 			),
 			'pagination' => array(
 				'pageSize' => Yii::app()->params['postsPageSize'],
@@ -73,7 +73,7 @@ class BlogController extends Controller
 
 		if (isset($_POST['ajax']) && $_POST['ajax'] === 'comment-form')
 		{
-			echo CActiveForm::validate($comments);
+			echo CActiveForm::validate($comment);
 			Yii::app()->end();
 		}
 
@@ -81,7 +81,7 @@ class BlogController extends Controller
 		{
 			$comment->attributes = $_POST['Comment'];
 
-			if ($blog->addComment($comments))
+			if ($blog->addComment($comment))
 			{
 				Yii::app()->user->setFlash('commentSubmitted', true);
 				$this->refresh();

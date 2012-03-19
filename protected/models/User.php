@@ -16,6 +16,9 @@
 class User extends CActiveRecord
 {
 
+	const STATUS_DISABLED = 0;
+	const STATUS_ENABLED = 1;
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -60,7 +63,7 @@ class User extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'group' => array(self::HAS_ONE, 'Group', 'group_id'),
+			'group' => array(self::BELONGS_TO, 'Group', 'group_id'),
 		);
 	}
 
@@ -105,4 +108,5 @@ class User extends CActiveRecord
 			'criteria' => $criteria,
 		));
 	}
+
 }

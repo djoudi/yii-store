@@ -92,6 +92,19 @@ class Brand extends CActiveRecord
 	}
 
 	/**
+	 * Default scope
+	 *
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return array(
+			'alias' => $this->tableName(),
+			'order' => 'brand.name',
+		);
+	}
+
+	/**
 	 * @return string the URL that shows the detail of the post
 	 */
 	public function getUrl()
@@ -128,4 +141,5 @@ class Brand extends CActiveRecord
 			'criteria' => $criteria,
 		));
 	}
+
 }

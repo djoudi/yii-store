@@ -151,7 +151,8 @@
 
 <!-- Футер -->
 <div id="footer">
-	&copy; <?php echo date('Y'); ?> <?php echo Yii::app()->name; ?>.
+	&copy; <?php echo date('Y'); ?> <?php echo Yii::app()->name; ?>.<br>
+	<?php echo Yii::powered(); ?>
 </div>
 <!-- Футер (The End)-->
 

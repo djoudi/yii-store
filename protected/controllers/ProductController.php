@@ -56,7 +56,7 @@ class ProductController extends Controller
 
 		if (isset($_POST['ajax']) && $_POST['ajax'] === 'comment-form')
 		{
-			echo CActiveForm::validate($comments);
+			echo CActiveForm::validate($comment);
 			Yii::app()->end();
 		}
 
@@ -64,7 +64,7 @@ class ProductController extends Controller
 		{
 			$comment->attributes = $_POST['Comment'];
 
-			if ($product->addComment($comments))
+			if ($product->addComment($comment))
 			{
 				Yii::app()->user->setFlash('commentSubmitted', true);
 				$this->refresh();

@@ -95,6 +95,19 @@ class Blog extends CActiveRecord
 	}
 
 	/**
+	 * Default scope
+	 *
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return array(
+			'alias' => $this->tableName(),
+			'order' => 'blog.create_time DESC',
+		);
+	}
+
+	/**
 	 * @return string the URL that shows the detail of the post
 	 */
 	public function getUrl()
@@ -124,8 +137,7 @@ class Blog extends CActiveRecord
 	public function findRecentPosts($limit = 10)
 	{
 		return $this->findAll(array(
-			'condition' => 't.status=' . self::STATUS_ENABLED,
-			'order' => 't.create_time DESC',
+			'condition' => 'blog.status=' . self::STATUS_ENABLED,
 			'limit' => $limit,
 		));
 	}

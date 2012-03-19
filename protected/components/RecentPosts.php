@@ -30,7 +30,7 @@ class RecentPosts extends CPortlet
 	/**
 	 * Отображение портлета
 	 */
-	public function renderContent()
+	public function run()
 	{
 		$this->render('recentPosts');
 	}

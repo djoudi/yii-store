@@ -15,8 +15,7 @@ class CurrenciesMenu extends CPortlet
 	public function getCurrencies()
 	{
 		$currencies = Currency::model()->findAll(array(
-			'condition' => 't.status=' . Currency::STATUS_ENABLED,
-			'order' => 't.position',
+			'condition' => 'currency.status=' . Currency::STATUS_ENABLED,
 		));
 
 		$items = array();
@@ -31,7 +30,7 @@ class CurrenciesMenu extends CPortlet
 		return $items;
 	}
 
-	public function renderContent()
+	public function run()
 	{
 		$this->render('currenciesMenu');
 	}

@@ -18,17 +18,16 @@ class FeaturedProducts extends CPortlet
 	{
 		return Product::model()->findAll(array(
 			'with' => array('variants', 'images'),
-			'condition' => 't.status=:status AND t.featured=:featured',
+			'condition' => 'product.status=:status AND product.featured=:featured',
 			'params' => array(
 				':status' => Product::STATUS_ENABLED,
 				':featured' => Product::STATUS_ENABLED,
 			),
-			'order' => 't.position DESC',
 			'limit' => $this->limit,
 		));
 	}
 
-	public function renderContent()
+	public function run()
 	{
 		$this->render('featuredProducts');
 	}

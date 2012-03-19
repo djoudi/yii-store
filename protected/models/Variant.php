@@ -62,7 +62,7 @@ class Variant extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'product' => array(self::BELONGS_TO, 'Product', 'product_id'),
+			'product' => array(self::HAS_ONE, 'Product', 'product_id'),
 		);
 	}
 
@@ -81,6 +81,19 @@ class Variant extends CActiveRecord
 			'stock' => 'Stock',
 			'position' => 'Position',
 			'attachment' => 'Attachment',
+		);
+	}
+
+	/**
+	 * Default scope
+	 *
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return array(
+			'alias' => $this->tableName(),
+			'order' => 'variant.position',
 		);
 	}
 
@@ -109,4 +122,5 @@ class Variant extends CActiveRecord
 			'criteria' => $criteria,
 		));
 	}
+
 }

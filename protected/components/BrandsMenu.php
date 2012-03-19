@@ -1,7 +1,4 @@
 <?php
-
-Yii::import('zii.widgets.CPortlet');
-
 /**
  * Created by JetBrains PhpStorm.
  * User: evgenijnasyrov
@@ -9,18 +6,17 @@ Yii::import('zii.widgets.CPortlet');
  * Time: 18:31
  * To change this template use File | Settings | File Templates.
  */
-class BrandsMenu extends CPortlet
+class BrandsMenu extends CWidget
 {
 
 	public function getBrands()
 	{
 		return Brand::model()->findAll(array(
-			'condition' => 't.status=' . Brand::STATUS_ENABLED,
-			'order' => 't.name',
+			'condition' => 'brand.status=' . Brand::STATUS_ENABLED,
 		));
 	}
 
-	public function renderContent()
+	public function run()
 	{
 		$this->render('brandsMenu');
 	}

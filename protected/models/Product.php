@@ -73,14 +73,14 @@ class Product extends CActiveRecord
 		return array(
 			'brand' => array(self::HAS_ONE, 'Brand', 'product_id'),
 			'variants' => array(self::HAS_MANY, 'Variant', 'product_id',
-				'order' => 'variants.position DESC',
+				//'order' => 'variants.position DESC',
 			),
 			'images' => array(self::HAS_MANY, 'Image', 'product_id',
-				'order' => 'images.position DESC',
+				//'order' => 'images.position DESC',
 			),
 			'comments' => array(self::HAS_MANY, 'Comment', 'object_id',
 				'condition' => 'comments.status=' . Comment::STATUS_ENABLED,
-				'order' => 'comments.create_time DESC',
+				//'order' => 'comments.create_time DESC',
 			),
 		);
 	}
@@ -105,6 +105,19 @@ class Product extends CActiveRecord
 			'create_time' => 'Create Time',
 			'update_time' => 'Update Time',
 			'featured' => 'Featured',
+		);
+	}
+
+	/**
+	 * Default scope
+	 *
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return array(
+			'alias' => $this->tableName(),
+			'order' => 'product.position',
 		);
 	}
 
@@ -158,16 +171,18 @@ class Product extends CActiveRecord
 	protected function afterDelete()
 	{
 		parent::afterDelete();
+
 		// Variants
 		Variant::model()->deleteAll(array(
-			'condition' => 'product_id=:product_id' . $this->id,
+			'condition' => 'product_id=:product_id',
 			'params' => array(
 				':product_id' => $this->id,
 			),
 		));
+
 		// Images
 		Image::model()->deleteAll(array(
-			'condition' => 'product_id=:product_id' . $this->id,
+			'condition' => 'product_id=:product_id',
 			'params' => array(
 				':product_id' => $this->id,
 			),
