@@ -1,7 +1,4 @@
 <?php
-
-Yii::import('zii.widgets.CPortlet');
-
 /**
  * Created by JetBrains PhpStorm.
  * User: evgenijnasyrov
@@ -9,21 +6,21 @@ Yii::import('zii.widgets.CPortlet');
  * Time: 18:48
  * To change this template use File | Settings | File Templates.
  */
-class BrowsedProducts extends CPortlet
+class BrowsedProducts extends CWidget
 {
 
 	public $limit = 20;
 
 	public function getProducts()
 	{
-		$browsedProducts = isset(Yii::app()->request->cookies['browsedProducts']->value) ?
-			Yii::app()->request->cookies['browsedProducts']->value :
+		$browsedProducts = isset(Yii::app()->session['browsedProducts']) ?
+			Yii::app()->session['browsedProducts'] :
 			array();
 
 		$products = array();
 		if (!empty($browsedProducts))
 		{
-			$browsedProductsIds = explode(',', $browsedProducts);
+			$browsedProductsIds = array_values($browsedProducts);
 			$browsedProductsIds = array_reverse($browsedProductsIds);
 			if ($this->limit > 0)
 				$browsedProductsIds = array_slice($browsedProductsIds, 0, $this->limit);

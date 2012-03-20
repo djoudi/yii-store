@@ -1,7 +1,4 @@
 <?php
-
-Yii::import('zii.widgets.CPortlet');
-
 /**
  * Created by JetBrains PhpStorm.
  * User: evgenijnasyrov
@@ -9,13 +6,14 @@ Yii::import('zii.widgets.CPortlet');
  * Time: 18:36
  * To change this template use File | Settings | File Templates.
  */
-class CurrenciesMenu extends CPortlet
+class CurrenciesMenu extends CWidget
 {
 
 	public function getCurrencies()
 	{
 		$currencies = Currency::model()->findAll(array(
-			'condition' => 'currency.status=' . Currency::STATUS_ENABLED,
+			'condition' => 'currency.status=:status',
+			'params' => array(':status' => Currency::STATUS_ENABLED),
 		));
 
 		$items = array();
@@ -23,7 +21,7 @@ class CurrenciesMenu extends CPortlet
 		{
 			$items[] = array(
 				'label' => $currency->name,
-				'url' => array('site/index', 'currency_id' => $currency->id),
+				'url' => array(Yii::app()->controller->route, 'currency_id' => $currency->id),
 			);
 		}
 

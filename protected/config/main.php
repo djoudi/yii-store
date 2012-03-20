@@ -4,6 +4,7 @@ return array(
 	'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
 	'defaultController' => 'site',
 	'name' => 'My Yii Store',
+	'theme' => 'classic',
 
 	// язык поумолчанию
 	'language' => 'ru',
@@ -38,12 +39,9 @@ return array(
 			'urlFormat' => 'path',
 			'showScriptName' => false,
 			'rules' => array(
-				// blog routes
-				'blog/<url:.*?>' => 'blog/view',
-				// product routes
-				'product/<url:.*?>' => 'product/view',
 				// default routes
-				'<controller:\w+>/<id:\d+>' => '<controller>/view',
+				'<controller:\w+>/<url:.*?>' => '<controller:\w+>/view',
+				/*'<controller:\w+>/<id:\d+>' => '<controller>/view',*/
 				'<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
 				'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
 			),

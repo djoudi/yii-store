@@ -1,7 +1,4 @@
 <?php
-
-Yii::import('zii.widgets.CPortlet');
-
 /**
  * Created by JetBrains PhpStorm.
  * User: evgenijnasyrov
@@ -9,7 +6,7 @@ Yii::import('zii.widgets.CPortlet');
  * Time: 11:52
  * To change this template use File | Settings | File Templates.
  */
-class RecentPosts extends CPortlet
+class RecentPosts extends CWidget
 {
 
 	/**

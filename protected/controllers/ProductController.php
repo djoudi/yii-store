@@ -21,25 +21,27 @@ class ProductController extends Controller
 		if ($model === null)
 			throw new CHttpException(404, 'Запрашиваемая страница не существует.');
 
-		// Добавление в историю просмотров товаров
-		$maxVisitedProducts = Yii::app()->params['browsedProductsLimit'];
-		$browsedProducts = (isset(Yii::app()->request->cookies['browsedProducts']->value)) ?
-			Yii::app()->request->cookies['browsedProducts']->value : '';
+
+		/*
+		 * Добавление в историю просмотров товаров
+		 */
+		$browsedProducts = isset(Yii::app()->session['browsedProducts']) ?
+			Yii::app()->session['browsedProducts'] :
+			array();
 
 		if (!empty($browsedProducts))
 		{
-			$browsedProducts = explode(',', $browsedProducts);
 			// Удалим текущий товар, если он был
-			if (($exists = array_search($model->id, $browsedProducts)) !== false)
-				unset($browsedProducts[$exists]);
+			if (($key = array_search($model->id, $browsedProducts)) !== false)
+				unset($browsedProducts[$key]);
 		}
 
 		// Добавим текущий товар
 		$browsedProducts[] = $model->id;
-		$browsedProducts = array_slice($browsedProducts, -$maxVisitedProducts, $maxVisitedProducts);
-		$newCookie = new CHttpCookie('browsedProducts', implode(',', $browsedProducts));
-		$newCookie->expire = time() + 60 * 60 * 24 * 30; // Время жизни - 30 дней
-		Yii::app()->request->cookies['browsedProducts'] = $newCookie;
+		$browsedProductsLimit = Yii::app()->params['browsedProductsLimit'];
+		$browsedProducts = array_slice($browsedProducts, -$browsedProductsLimit, $browsedProductsLimit);
+		Yii::app()->session['browsedProducts'] = $browsedProducts;
+
 
 		$this->render('view', array(
 			'model' => $model,

@@ -1541,3 +1541,1686 @@ Stack trace:
 REQUEST_URI=/js/ajax_cart.js
 HTTP_REFERER=http://yii-store/
 ---
+2012/03/19 21:19:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:19:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery-ui.min.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/jquery-ui.mi...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/ajax_cart.js".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('js/ajax_cart.js')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:44:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:44:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:44:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "brands".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('brands')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/mobilnye_telefony
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/mobilnye_telefony
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/mobilnye_telefony
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/mobilnye_telefony
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:48:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brands/mobilnye_telefony
+HTTP_REFERER=http://yii-store/brands/
+---
+2012/03/19 21:48:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:48:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brands/mobilnye_telefony
+---
+2012/03/19 21:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/products/fotoapparaty
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/products/fotoapparaty
+---
+2012/03/19 21:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/products/fotoapparaty
+---
+2012/03/19 21:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:49:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/products/miksery
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:49:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/products/miksery
+---
+2012/03/19 21:49:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/products/miksery
+---
+2012/03/19 21:49:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:49:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:54:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:54:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:54:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/brand/apple
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:54:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/brand/apple
+---
+2012/03/19 21:54:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/brand/apple
+---
+2012/03/19 21:54:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/error?currency_id=2
+HTTP_REFERER=http://yii-store/brand/apple
+---
+2012/03/19 21:54:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/site/error?currency_id=2
+---
+2012/03/19 21:54:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/site/error?currency_id=2
+---
+2012/03/19 21:54:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:54:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index?currency_id=1
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/site/index?currency_id=1
+---
+2012/03/19 21:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/site/index?currency_id=1
+---
+2012/03/19 21:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:57:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/products/mobilnye_telefony
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:57:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/products/mobilnye_telefony
+---
+2012/03/19 21:57:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/products/mobilnye_telefony
+---
+2012/03/19 21:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/products/mobilnye_telefony
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 21:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/products/mobilnye_telefony
+---
+2012/03/19 21:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/products/mobilnye_telefony
+---
+2012/03/19 21:58:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/products/bytovaya_tehnika
+HTTP_REFERER=http://yii-store/products/mobilnye_telefony
+---
+2012/03/19 21:58:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/products/bytovaya_tehnika
+---
+2012/03/19 21:58:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/products/bytovaya_tehnika
+---
+2012/03/19 21:58:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/products/pylesosy
+HTTP_REFERER=http://yii-store/products/bytovaya_tehnika
+---
+2012/03/19 21:58:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/products/pylesosy
+---
+2012/03/19 21:58:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/products/pylesosy
+---
+2012/03/19 21:58:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/products/fotoapparaty
+HTTP_REFERER=http://yii-store/products/pylesosy
+---
+2012/03/19 21:58:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/products/fotoapparaty
+---
+2012/03/19 21:58:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/products/fotoapparaty
+---
+2012/03/19 21:58:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/error?currency_id=2
+HTTP_REFERER=http://yii-store/products/fotoapparaty
+---
+2012/03/19 21:58:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/site/error?currency_id=2
+---
+2012/03/19 21:58:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/site/error?currency_id=2
+---
+2012/03/19 21:58:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/error?currency_id=1
+HTTP_REFERER=http://yii-store/site/error?currency_id=2
+---
+2012/03/19 21:58:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/site/error?currency_id=1
+---
+2012/03/19 21:58:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/site/error?currency_id=1
+---
+2012/03/19 22:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/error?currency_id=1
+HTTP_REFERER=http://yii-store/site/error?currency_id=2
+---
+2012/03/19 22:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/site/error?currency_id=1
+---
+2012/03/19 22:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/site/error?currency_id=1
+---
+2012/03/19 22:16:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 22:16:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 22:26:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 22:26:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 22:27:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/19 22:27:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/20 19:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/20 19:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/20 19:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/ajax_cart.js
+HTTP_REFERER=http://yii-store/
+---
+2012/03/20 19:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "<controller:\w+>/view".' in /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-store/
+---

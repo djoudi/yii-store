@@ -124,9 +124,10 @@ class Product extends CActiveRecord
 	/**
 	 * @return string the URL that shows the detail of the post
 	 */
-	public function getUrl()
+	public function getLink()
 	{
-		return Yii::app()->createUrl('product/view', array(
+		return Yii::app()->createUrl('<controller:\w+>/view', array(
+			'controller' => 'product',
 			'url' => $this->url,
 		));
 	}

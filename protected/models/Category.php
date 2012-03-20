@@ -110,9 +110,10 @@ class Category extends CActiveRecord
 	/**
 	 * @return string the URL that shows the detail of the post
 	 */
-	public function getUrl()
+	public function getLink()
 	{
-		return Yii::app()->createUrl('category/view', array(
+		return Yii::app()->createUrl('<controller:\w+>/view', array(
+			'controller' => 'products',
 			'url' => $this->url,
 		));
 	}
