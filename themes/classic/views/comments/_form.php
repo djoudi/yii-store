@@ -9,9 +9,7 @@
 )); ?>
 	<h2>Написать комментарий</h2>
 
-	<div class="message_error">
 	<?php echo $form->errorSummary($model); ?>
-	</div>
 
 	<?php echo $form->textArea($model, 'text', array(
 		'id' => 'comment_text',
@@ -31,10 +29,15 @@
 		)); ?>
 
 		<?php if(CCaptcha::checkRequirements()): ?>
-		<?php echo $form->labelEx($model, 'verifyCode'); ?>
 		<label for="comment_captcha">Число</label>
 		<div class="captcha">
-			<?php $this->widget('CCaptcha'); ?>
+			<?php $this->widget('CCaptcha', array(
+				'showRefreshButton' => false,
+				'imageOptions' => array(
+					'width' => 91,
+					'height' => 43,
+				),
+			)); ?>
 		</div>
 		<?php echo $form->textField($model, 'verifyCode', array(
 			'id' => 'comment_captcha',

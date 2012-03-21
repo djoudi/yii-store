@@ -26,7 +26,7 @@ class BrowsedProducts extends CWidget
 				$browsedProductsIds = array_slice($browsedProductsIds, 0, $this->limit);
 
 			$criteria = new CDbCriteria;
-			$criteria->with = array('variants', 'images');
+			//$criteria->with = array('variants', 'images');
 			$criteria->condition = 'product.status=' . Product::STATUS_ENABLED;
 			$criteria->addInCondition('product.id', $browsedProductsIds);
 

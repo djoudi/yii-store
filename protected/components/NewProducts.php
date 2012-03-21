@@ -14,7 +14,7 @@ class NewProducts extends CWidget
 	public function getProducts()
 	{
 		return Product::model()->findAll(array(
-			'with' => array('variants', 'images'),
+			//'with' => array('variants', 'images'),
 			'condition' => 'product.status=' . Product::STATUS_ENABLED,
 			'order' => 'product.create_time DESC',
 			'limit' => $this->limit,

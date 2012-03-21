@@ -2,6 +2,17 @@
 
 class BlogController extends Controller
 {
+	/**
+	 * @return array
+	 */
+	public function behaviors()
+	{
+		return array(
+			'comment' => array(
+				'class' => 'ext.comment.CommentControllerBehavior',
+			),
+		);
+	}
 
 	/**
 	 * Declares class-based actions
@@ -21,24 +32,18 @@ class BlogController extends Controller
 	/**
 	 * Displays a particular model
 	 *
-	 * @param string $url
+	 * @param int $id
 	 */
-	public function actionView($url)
+	public function actionView($id)
 	{
-		$model = Blog::model()->find(array(
-			'condition' => 'blog.status=:status AND blog.url=:url',
-			'params' => array(
-				':status' => Blog::STATUS_ENABLED,
-				':url' => $url,
-			),
-		));
+		$model = Blog::model()->find($id);
 		if ($model === null)
 			throw new CHttpException(404, 'Запрашиваемая страница не существует.');
 
 		$this->render('view', array(
 			'model' => $model,
-			'prevPost' => Blog::model()->findPrev($model->id),
-			'nextPost' => Blog::model()->findNext($model->id),
+			'prevPost' => Blog::model()->findPrevPost($model->id),
+			'nextPost' => Blog::model()->findNextPost($model->id),
 			'comment' => $this->newComment($model),
 		));
 	}
@@ -49,10 +54,6 @@ class BlogController extends Controller
 	public function actionIndex()
 	{
 		$dataProvider = new CActiveDataProvider('Blog', array(
-			'criteria' => array(
-				'condition' => 'blog.status=:status',
-				'params' => array(':status' => Blog::STATUS_ENABLED),
-			),
 			'pagination' => array(
 				'pageSize' => Yii::app()->params['postsPageSize'],
 			),

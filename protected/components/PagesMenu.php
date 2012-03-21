@@ -17,11 +17,8 @@ class PagesMenu extends CWidget
 	public function getPages()
 	{
 		$pages = Page::model()->findAll(array(
-			'condition' => 'page.menu_id=:menu_id AND page.status=:status',
-			'params' => array(
-				':menu_id' => 1,
-				':status' => Page::STATUS_ENABLED,
-			),
+			'condition' => 'page.menu_id = :menu_id',
+			'params' => array(':menu_id' => 1),
 		));
 
 		$menu = array();

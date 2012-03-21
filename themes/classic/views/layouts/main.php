@@ -7,47 +7,18 @@
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/reset.css" rel="stylesheet">
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.css" rel="stylesheet">
 
-	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery/jquery.js"></script>
+	<!--<script src="<?php /*echo Yii::app()->theme->baseUrl; */?>/js/jquery/jquery.js"></script>-->
 
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
 
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/ctrlnavigate.js"></script>
 
-	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery-ui.min.js"></script>
-	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/ajax_cart.js"></script>
+	<!--<script src="<?php /*echo Yii::app()->theme->baseUrl; */?>/js/jquery-ui.min.js"></script>-->
+	<!--<script src="<?php /*echo Yii::app()->theme->baseUrl; */?>/js/ajax_cart.js"></script>-->
 
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/baloon/js/baloon.js"></script>
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/js/baloon/css/baloon.css" rel="stylesheet">
-
-	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/autocomplete/jquery.autocomplete-min.js"></script>
-	<style>
-		.autocomplete-w1 { position:absolute; top:0px; left:0px; margin:6px 0 0 6px; /* IE6 fix: */ _background:none; _margin:1px 0 0 0; }
-		.autocomplete { border:1px solid #999; background:#FFF; cursor:default; text-align:left; overflow-x:auto;  overflow-y: auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
-		.autocomplete .selected { background:#F0F0F0; }
-		.autocomplete div { padding:2px 5px; white-space:nowrap; }
-		.autocomplete strong { font-weight:normal; color:#3399FF; }
-	</style>
-	<script>
-		$(function() {
-			//  Автозаполнитель поиска
-			$(".input_search").autocomplete({
-				serviceUrl:'ajax/search_products.php',
-				minChars:1,
-				noCache: false,
-				onSelect:
-					function(value, data){
-						$(".input_search").closest('form').submit();
-					},
-				fnFormatResult:
-					function(value, data, currentValue){
-						var reEscape = new RegExp('(\\' + ['/', '.', '*', '+', '?', '|', '(', ')', '[', ']', '{', '}', '\\'].join('|\\') + ')', 'g');
-						var pattern = '(' + currentValue.replace(reEscape, '\\$1') + ')';
-						return (data.image?"<img align=absmiddle src='"+data.image+"'> ":'') + value.replace(new RegExp(pattern, 'gi'), '<strong>$1<\/strong>');
-					}
-			});
-		});
-	</script>
 </head>
 <body>
 
@@ -61,8 +32,7 @@
 
 		<!-- Корзина -->
 		<div id="cart_informer">
-			<!--{* Обновляемая аяксом корзина должна быть в отдельном файле *}
-			{include file='cart_informer.tpl'}-->
+			Корзина пуста
 		</div>
 		<!-- Корзина (The End)-->
 
@@ -70,11 +40,11 @@
 		<div id="account">
 			<?php if (!Yii::app()->user->isGuest): ?>
 			<span id="username">
-					<?php echo CHtml::link(CHtml::encode(Yii::app()->user->name), 'user'); ?>
+				<?php echo CHtml::link(CHtml::encode(Yii::app()->user->name), 'user/profile'); ?>
 				<?php if (Yii::app()->user->discount > 0): ?>
 				,ваша скидка – <?php echo Yii::app()->user->discount; ?>%
 				<?php endif; ?>
-				</span>
+			</span>
 			<a id="logout" href="/user/logout">выйти</a>
 			<?php else: ?>
 			<a id="register" href="/user/register">Регистрация</a>
@@ -113,12 +83,7 @@
 	<div id="left">
 
 		<!-- Поиск-->
-		<div id="search">
-			<form action="products">
-				<input class="input_search" type="text" name="keyword" value="" placeholder="Поиск товара">
-				<input class="button_search" value="" type="submit">
-			</form>
-		</div>
+		<?php $this->widget('ProductSearch'); ?>
 		<!-- Поиск (The End)-->
 
 		<!-- Меню каталога -->
@@ -135,14 +100,14 @@
 
 		<!-- Просмотренные товары -->
 		<?php $this->widget('BrowsedProducts', array(
-		'limit' => Yii::app()->params['browsedProductsLimit'],
-	)); ?>
+			'limit' => Yii::app()->params['browsedProductsLimit'],
+		)); ?>
 		<!-- Просмотренные товары (The End)-->
 
 		<!-- Меню блога -->
 		<?php $this->widget('RecentPosts', array(
-		'limit' => Yii::app()->params['recentPostsLimit'],
-	)); ?>
+			'limit' => Yii::app()->params['recentPostsLimit'],
+		)); ?>
 		<!-- Меню блога (The End) -->
 	</div>
 

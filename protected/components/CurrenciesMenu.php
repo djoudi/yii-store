@@ -11,10 +11,7 @@ class CurrenciesMenu extends CWidget
 
 	public function getCurrencies()
 	{
-		$currencies = Currency::model()->findAll(array(
-			'condition' => 'currency.status=:status',
-			'params' => array(':status' => Currency::STATUS_ENABLED),
-		));
+		$currencies = Currency::model()->findAll();
 
 		$items = array();
 		foreach ($currencies as $currency)

@@ -12,9 +12,8 @@ class ProductController extends Controller
 	public function actionView($url)
 	{
 		$model = Product::model()->find(array(
-			'condition' => 't.status=:status AND t.url=:url',
+			'condition' => 'product.url=:url',
 			'params' => array(
-				':status' => Product::STATUS_ENABLED,
 				':url' => $url,
 			),
 		));
@@ -45,6 +44,7 @@ class ProductController extends Controller
 
 		$this->render('view', array(
 			'model' => $model,
+			'comment' => $this->newComment($model),
 		));
 	}
 
@@ -75,4 +75,33 @@ class ProductController extends Controller
 
 		return $comment;
 	}
+
+	/**
+	 * @param string $term
+	 */
+	public function actionSearch($term)
+	{
+		if (Yii::app()->request->isAjaxRequest)
+		{
+			$criteria = new CDbCriteria;
+			$criteria->with = array('images');
+			$criteria->compare('product.name', $term, true);
+
+			$products = array();
+			foreach (Product::model()->findAll($criteria) as $model)
+			{
+				// todo: подлючить картинки
+				$products[] = array(
+					'label' => $model->name,
+					'url' => $model->url,
+					'image' => $model->images[0]->file,
+				);
+			}
+
+			echo CJSON::encode($products);
+
+			Yii::app()->end();
+		}
+	}
+
 }

@@ -2,7 +2,7 @@
 
 <!-- Заголовок /-->
 <h1 data-post="<?php echo $model->id; ?>"><?php echo CHtml::encode($model->name); ?></h1>
-<p><?php echo $model->date; ?></p>
+<p><?php echo date('Y.m.d', $model->create_time); ?></p>
 
 <!-- Тело поста /-->
 <?php $this->beginWidget('CHtmlPurifier'); ?>
@@ -32,7 +32,7 @@
 <div id="comments">
 
 	<h2>Комментарии</h2>
-	<?php if ($model->commentCount >= 1): ?>
+	<?php if (count($model->comments) >= 1): ?>
 	<?php $this->renderPartial('/comments/_view', array(
 		'post' => $model,
 		'comments' => $model->comments,
@@ -53,5 +53,3 @@
 
 </div>
 <!-- Комментарии (The End) -->
-
-<script src="/js/ctrlnavigate.js"></script>

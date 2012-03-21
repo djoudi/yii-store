@@ -6,8 +6,8 @@
 			<!-- Имя и дата комментария-->
 			<div class="comment_header">
 				<?php echo CHtml::encode($comment->name); ?>
-				<i><?php echo $comment->date; ?></i>
-				<?php if ($comment->approved == 0): ?>
+				<i><?php echo date('Y.m.d', $comment->create_time); ?></i>
+				<?php if ($comment->status == 0): ?>
 				<b>ожидает модерации</b>
 				<?php endif; ?>
 			</div>

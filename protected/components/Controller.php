@@ -1,27 +1,31 @@
 <?php
-/**
- * Controller is the customized base controller class.
- * All controller classes for this application should extend from this base class.
- */
+
 class Controller extends CController
 {
 
 	/**
-	 * The default layout for the controller view
-	 *
 	 * @var string
 	 */
 	public $layout = '/layouts/main';
 
+	/**
+	 * @var string
+	 */
 	public $pageKeywords;
+
+	/**
+	 * @var string
+	 */
 	public $pageDescription;
 
+	/**
+	 * @return mixed
+	 */
 	public function getPage()
 	{
 		$page = Page::model()->find(array(
-			'condition' => 'status=:status AND controller=:controller AND action=:action',
+			'condition' => 'controller=:controller AND action=:action',
 			'params' => array(
-				':status' => Page::STATUS_ENABLED,
 				':controller' => $this->id,
 				':action' => $this->action->id,
 			),

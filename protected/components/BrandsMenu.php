@@ -9,13 +9,19 @@
 class BrandsMenu extends CWidget
 {
 
+	/**
+	 * @return mixed
+	 */
 	public function getBrands()
 	{
 		return Brand::model()->findAll(array(
-			'condition' => 'brand.status=' . Brand::STATUS_ENABLED,
+			'order' => 'brand.name',
 		));
 	}
 
+	/**
+	 *
+	 */
 	public function run()
 	{
 		$this->render('brandsMenu');

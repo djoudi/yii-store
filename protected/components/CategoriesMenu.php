@@ -9,20 +9,28 @@
 class CategoriesMenu extends CWidget
 {
 
+	/**
+	 * @return array
+	 */
 	public function getCategories()
 	{
-		$categories = Category::model()->findAll(array(
-			'condition' => 'category.status=' . Category::STATUS_ENABLED,
-		));
-
+		$categories = Category::model()->findAll();
 		return $this->_getItems($categories, 0);
 	}
 
+	/**
+	 *
+	 */
 	public function run()
 	{
 		$this->render('categoriesMenu');
 	}
 
+	/**
+	 * @param array $categories
+	 * @param int $parent_id
+	 * @return array
+	 */
 	private function _getItems(array $categories, $parent_id = 0)
 	{
 		$items = array();
@@ -32,7 +40,7 @@ class CategoriesMenu extends CWidget
 			{
 				$items[] = array(
 					'label' => $category->name,
-					'url' => $category->link,
+					'url' => $category->url,
 					'items' => $this->_getItems($categories, $category->id)
 				);
 			}

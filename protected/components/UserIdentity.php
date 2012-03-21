@@ -1,12 +1,18 @@
 <?php
 
-/**
- * UserIdentity represents the data needed to identity a user.
- * It contains the authentication method that checks if the provided
- * data can identity the user.
- */
-class UserIdentity extends CUserIdentity
+class UserIdentity extends CBaseUserIdentity
 {
+
+	const ERROR_EMAIL_INVALID = 1;
+
+	/**
+	 * @var string email
+	 */
+	public $email;
+	/**
+	 * @var string password
+	 */
+	public $password;
 
 	/**
 	 * @var int
@@ -14,35 +20,48 @@ class UserIdentity extends CUserIdentity
 	private $_id;
 
 	/**
-	 * Authenticates a user.
+	 * Constructor.
+	 * @param string $email email
+	 * @param string $password password
+	 */
+	public function __construct($email, $password)
+	{
+		$this->email = $email;
+		$this->password = $password;
+	}
+
+	/**
+	 * Authenticates the user.
+	 * The information needed to authenticate the user
+	 * are usually provided in the constructor.
 	 * @return boolean whether authentication succeeds.
 	 */
 	public function authenticate()
 	{
-		$user = Users::model()->find(array(
-			'condition' => 't.enabled=1 AND t.email=:email',
-			'params' => array(':email' => $this->username),
+		$user = User::model()->find(array(
+			'condition' => 'user.email=:email',
+			'params' => array(':email' => $this->email),
 		));
 
 		if ($user === null)
-			$this->errorCode = self::ERROR_USERNAME_INVALID;
+			$this->errorCode = self::ERROR_EMAIL_INVALID;
 		else if (!$user->validatePassword($this->password))
 			$this->errorCode = self::ERROR_PASSWORD_INVALID;
 		else
 		{
 			$this->_id = $user->id;
 			$this->setState('name', $user->name);
-			$this->setState('discount', $user->group_id ? $user->group->discount : 0);
+			$this->setState('discount', $user->group_id);
 
 			$this->errorCode = self::ERROR_NONE;
 		}
+
 		return $this->errorCode == self::ERROR_NONE;
 	}
 
 	/**
-	 * the ID of the user record
-	 *
-	 * @return integer
+	 * Returns a value that uniquely represents the identity.
+	 * @return int a value that uniquely represents the identity (e.g. primary key value).
 	 */
 	public function getId()
 	{

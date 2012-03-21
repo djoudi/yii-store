@@ -13,17 +13,13 @@
 	),
 )); ?>
 
-	<?php if ($errors = $form->errorSummary($model)): ?>
-	<div class="message_error">
-		<?php echo $errors; ?>
-	</div>
-	<?php endif; ?>
+	<?php echo $form->errorSummary($model); ?>
 
-		<?php echo $form->labelEx($model, 'email'); ?>
-		<?php echo $form->textField($model, 'email'); ?>
+	<?php echo $form->labelEx($model, 'email'); ?>
+	<?php echo $form->textField($model, 'email'); ?>
 
-		<?php echo $form->labelEx($model, 'password'); ?>
-		<?php echo $form->passwordField($model, 'password'); ?>
+	<?php echo $form->labelEx($model, 'password'); ?>
+	<?php echo $form->passwordField($model, 'password'); ?>
 
 	<div class="row rememberMe">
 		<?php echo $form->checkBox($model, 'rememberMe'); ?>
