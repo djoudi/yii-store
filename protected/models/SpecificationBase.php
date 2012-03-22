@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "variant".
+ * This is the model class for table "specification".
  *
- * The followings are the available columns in table 'variant':
+ * The followings are the available columns in table 'specification':
  * @property string $id
  * @property string $product_id
  * @property string $sku
@@ -12,9 +12,8 @@
  * @property double $compare_price
  * @property integer $stock
  * @property string $position
- * @property string $attachment
  */
-abstract class VariantBase extends CActiveRecord
+abstract class SpecificationBase extends CActiveRecord
 {
 
 
@@ -23,7 +22,7 @@ abstract class VariantBase extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'variant';
+		return 'specification';
 	}
 
 	/**
@@ -50,7 +49,6 @@ abstract class VariantBase extends CActiveRecord
 			'compare_price' => 'Compare Price',
 			'stock' => 'Stock',
 			'position' => 'Position',
-			'attachment' => 'Attachment',
 		);
 	}
 

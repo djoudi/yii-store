@@ -39,6 +39,8 @@ abstract class BrandBase extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'products' => array(self::HAS_MANY, 'Product', 'brand_id'),
+			'categories' => array(self::HAS_MANY, 'ProductCategory', 'id',
+				'through' => 'products'),
 		);
 	}
 

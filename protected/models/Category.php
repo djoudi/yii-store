@@ -22,7 +22,6 @@ class Category extends CategoryBase
 			array(
 				'condition' => 'category.status = :status',
 				'params' => array(':status' => self::STATUS_ENABLED),
-				'order' => 'category.parent_id, category.position',
 			)
 		);
 	}

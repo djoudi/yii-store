@@ -5,7 +5,7 @@
 		<?php foreach ($this->posts as $post): ?>
 		<li data-post="<?php echo $post->id; ?>">
 			<?php echo date('Y.m.d', $post->create_time); ?>
-			<?php echo CHtml::link(CHtml::encode($post->name), $post->link); ?>
+			<?php echo CHtml::link(CHtml::encode($post->name), $post->url); ?>
 		</li>
 		<?php endforeach; ?>
 	</ul>

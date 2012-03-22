@@ -26,30 +26,30 @@
 		</div>
 		<!-- Описание товара (The End) -->
 
-		<?php if (count($data->variants) > 0): ?>
+		<?php if (count($data->specifications) > 0): ?>
 		<!-- Выбор варианта товара -->
-		<form class="variants" action="/cart">
+		<form class="specifications" action="/cart">
 			<table>
-				<?php foreach ($data->variants as $key => $variant): ?>
-				<tr class="variant">
+				<?php foreach ($data->specifications as $key => $specification): ?>
+				<tr class="specification">
 					<td>
-						<?php echo CHtml::radioButton('variant', ($key == 0), array(
-						'id' => 'product_' . $variant->id,
-						'value' => $variant->id,
-						'class' => 'variant_radiobutton',
-						'style' => (count($data->variants) < 2) ? 'display:none;' : '',
+						<?php echo CHtml::radioButton('specification', ($key == 0), array(
+						'id' => 'product_' . $specification->id,
+						'value' => $specification->id,
+						'class' => 'specification_radiobutton',
+						'style' => (count($data->specifications) < 2) ? 'display:none;' : '',
 					)); ?>
 					</td>
 					<td>
-						<?php if ($variant->name): ?>
-						<?php echo CHtml::label($variant->name, 'featured_' . $variant->id); ?>
+						<?php if ($specification->name): ?>
+						<?php echo CHtml::label($specification->name, 'featured_' . $specification->id); ?>
 						<?php endif; ?>
 					</td>
 					<td>
-						<?php if ($variant->compare_price > 0): ?>
-						<span class="compare_price"><?php echo $variant->compare_price; ?></span>
+						<?php if ($specification->compare_price > 0): ?>
+						<span class="compare_price"><?php echo $specification->compare_price; ?></span>
 						<?php endif; ?>
-						<span class="price"><?php echo $variant->price; ?> <span class="currency">руб</span></span>
+						<span class="price"><?php echo $specification->price; ?> <span class="currency">руб</span></span>
 					</td>
 				</tr>
 				<?php endforeach; ?>

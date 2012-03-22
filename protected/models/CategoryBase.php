@@ -38,6 +38,8 @@ abstract class CategoryBase extends CActiveRecord
 	public function relations()
 	{
 		return array(
+			'products' => array(self::MANY_MANY, 'Product',
+				'product_category(category_id,product_id)'),
 		);
 	}
 

@@ -36,7 +36,7 @@ class BlogController extends Controller
 	 */
 	public function actionView($id)
 	{
-		$model = Blog::model()->find($id);
+		$model = Blog::model()->findByPk($id);
 		if ($model === null)
 			throw new CHttpException(404, 'Запрашиваемая страница не существует.');
 

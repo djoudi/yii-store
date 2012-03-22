@@ -32,30 +32,30 @@
 		<?php echo $model->body; ?>
 		<?php $this->endWidget(); ?>
 
-		<?php if (count($model->variants) > 0): ?>
+		<?php if (count($model->specifications) > 0): ?>
 		<!-- Выбор варианта товара -->
-		<form class="variants" action="/cart">
+		<form class="specifications" action="/cart">
 			<table>
-				<?php foreach ($model->variants as $key => $variant): ?>
-				<tr class="variant">
+				<?php foreach ($model->specifications as $key => $specification): ?>
+				<tr class="specification">
 					<td>
-						<?php echo CHtml::radioButton('variant', ($key == 0), array(
-							'id' => 'product_' . $variant->id,
-							'value' => $variant->id,
-							'class' => 'variant_radiobutton',
-							'style' => (count($model->variants) < 2) ? 'display:none;' : '',
+						<?php echo CHtml::radioButton('specification', ($key == 0), array(
+							'id' => 'product_' . $specification->id,
+							'value' => $specification->id,
+							'class' => 'specification_radiobutton',
+							'style' => (count($model->specifications) < 2) ? 'display:none;' : '',
 						)); ?>
 					</td>
 					<td>
-						<?php if ($variant->name): ?>
-						<?php echo CHtml::label($variant->name, 'featured_' . $variant->id); ?>
+						<?php if ($specification->name): ?>
+						<?php echo CHtml::label($specification->name, 'featured_' . $specification->id); ?>
 						<?php endif; ?>
 					</td>
 					<td>
-						<?php if ($variant->compare_price > 0): ?>
-						<span class="compare_price"><?php echo $variant->compare_price; ?></span>
+						<?php if ($specification->compare_price > 0): ?>
+						<span class="compare_price"><?php echo $specification->compare_price; ?></span>
 						<?php endif; ?>
-						<span class="price"><?php echo $variant->price; ?> <span class="currency">руб</span></span>
+						<span class="price"><?php echo $specification->price; ?> <span class="currency">руб</span></span>
 					</td>
 				</tr>
 				<?php endforeach; ?>
@@ -132,17 +132,17 @@
 		<h3><a data-product="{$model->id}" href="products/{$model->url}">{$model->name|escape}</a></h3>
 		<!-- Название товара (The End) -->
 
-		{if $model->variants|count > 0}
+		{if $model->specifications|count > 0}
 		<!-- Выбор варианта товара -->
-		<form class="variants" action="/cart">
+		<form class="specifications" action="/cart">
 			<table>
-				{foreach $model->variants as $v}
-				<tr class="variant">
+				{foreach $model->specifications as $v}
+				<tr class="specification">
 					<td>
-						<input id="related_{$v->id}" name="variant" value="{$v->id}" type="radio" class="variant_radiobutton"  {if $v@first}checked{/if} {if $model->variants|count<2} style="display:none;"{/if}/>
+						<input id="related_{$v->id}" name="specification" value="{$v->id}" type="radio" class="specification_radiobutton"  {if $v@first}checked{/if} {if $model->specifications|count<2} style="display:none;"{/if}/>
 					</td>
 					<td>
-						{if $v->name}<label class="variant_name" for="related_{$v->id}">{$v->name}</label>{/if}
+						{if $v->name}<label class="specification_name" for="related_{$v->id}">{$v->name}</label>{/if}
 					</td>
 					<td>
 						{if $v->compare_price > 0}<span class="compare_price">{$v->compare_price|convert}</span>{/if}

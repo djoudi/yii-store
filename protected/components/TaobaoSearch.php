@@ -9,6 +9,12 @@
 class TaobaoSearch extends CWidget
 {
 
-
+	/**
+	 *
+	 */
+	public function run()
+	{
+		$this->render('taobaoSearch');
+	}
 
 }

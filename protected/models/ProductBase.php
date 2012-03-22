@@ -40,11 +40,11 @@ abstract class ProductBase extends CActiveRecord
 	{
 		return array(
 			'brand' => array(self::BELONGS_TO, 'Brand', 'product_id'),
-			'variants' => array(self::HAS_MANY, 'Variant', 'product_id'),
+			'specifications' => array(self::HAS_MANY, 'Specification', 'product_id'),
 			'images' => array(self::HAS_MANY, 'Image', 'product_id'),
-			'comments' => array(self::HAS_MANY, 'Comment', 'object_id',
-				'condition' => 'comments.status=' . Comment::STATUS_ENABLED,
-			),
+			'comments' => array(self::HAS_MANY, 'Comment', 'object_id'),
+			'categories' => array(self::MANY_MANY, 'Category',
+				'product_category(product_id,category_id)'),
 		);
 	}
 

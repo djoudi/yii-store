@@ -1,11 +1,11 @@
 <?php
 
-class Variant extends VariantBase
+class Specification extends SpecificationBase
 {
 
 	/**
 	 * @param string $className
-	 * @return Variant
+	 * @return Specification
 	 */
 	public static function model($className = __CLASS__)
 	{
@@ -20,7 +20,7 @@ class Variant extends VariantBase
 		return CMap::mergeArray(
 			parent::defaultScope(),
 			array(
-				'order' => 'variant.position',
+				'order' => 'specification.position',
 			)
 		);
 	}

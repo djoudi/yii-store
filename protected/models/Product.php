@@ -12,7 +12,6 @@ class Product extends ProductBase
 		return parent::model($className);
 	}
 
-
 	/**
 	 * @return array
 	 */
@@ -21,6 +20,8 @@ class Product extends ProductBase
 		return CMap::mergeArray(
 			parent::defaultScope(),
 			array(
+				'condition' => 'product.status = :status',
+				'params' => array(':status' => Product::STATUS_ENABLED),
 				'order' => 'product.position',
 			)
 		);

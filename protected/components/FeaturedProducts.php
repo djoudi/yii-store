@@ -14,10 +14,9 @@ class FeaturedProducts extends CWidget
 	public function getProducts()
 	{
 		return Product::model()->findAll(array(
-			//'with' => array('variants', 'images'),
-			'condition' => 'product.status=:status AND product.featured=:featured',
+			'with' => array('specifications', 'images'),
+			'condition' => 'product.featured=:featured',
 			'params' => array(
-				':status' => Product::STATUS_ENABLED,
 				':featured' => Product::STATUS_ENABLED,
 			),
 			'limit' => $this->limit,

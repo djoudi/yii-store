@@ -32,10 +32,10 @@ class Page extends PageBase
 	 */
 	public function getUrl()
 	{
-		return Yii::app()->createUrl('<controller>/<action>', array(
-			'controller' => $this->controller,
-			'action' => $this->action,
-		));
+		return Yii::app()->createUrl(implode('/', array(
+			$this->controller,
+			$this->action
+		)));
 	}
 
 }

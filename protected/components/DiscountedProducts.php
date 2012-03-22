@@ -13,11 +13,11 @@ class DiscountedProducts extends CWidget
 
 	public function getProducts()
 	{
-		$discountedQuery = new CDbExpression('(SELECT 1 FROM variant variant WHERE variant.product_id=product.id AND variant.compare_price>0 LIMIT 1) = 1');
+		$discountedQuery = new CDbExpression('(SELECT 1 FROM specification specification WHERE specification.product_id=product.id AND specification.compare_price>0 LIMIT 1) = 1');
 
 		return Product::model()->findAll(array(
-			'with' => array(/*'variants',*/ 'images'),
-			'condition' => 'product.status=1 AND ' . $discountedQuery,
+			'with' => array('specifications', 'images'),
+			'condition' => $discountedQuery,
 			'order' => 'product.create_time DESC',
 			'limit' => $this->limit,
 		));

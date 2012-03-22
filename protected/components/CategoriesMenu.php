@@ -14,7 +14,9 @@ class CategoriesMenu extends CWidget
 	 */
 	public function getCategories()
 	{
-		$categories = Category::model()->findAll();
+		$categories = Category::model()->findAll(array(
+			'order' => 'category.parent_id, category.position',
+		));
 		return $this->_getItems($categories, 0);
 	}
 

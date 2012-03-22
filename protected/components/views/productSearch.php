@@ -9,7 +9,7 @@
 		),
 		'htmlOptions' => array(
 			'class' => 'input_search',
-			'placeholder' => 'Поиск товара',
+			'placeholder' => 'Поиск товара локально',
 		),
 	)); ?>
 	<?php echo CHtml::submitButton('', array(
