@@ -22,7 +22,7 @@ class Product extends ProductBase
 			array(
 				'condition' => 'product.status = :status',
 				'params' => array(':status' => Product::STATUS_ENABLED),
-				'order' => 'product.position',
+				/*'order' => 'product.position',*/
 			)
 		);
 	}

@@ -33,10 +33,10 @@
 				<tr class="variant">
 					<td>
 						<?php echo CHtml::radioButton('variant', ($key == 0), array(
-						'id' => 'product_' . $specification->id,
+						'id' => 'variant_' . $specification->id,
 						'value' => $specification->id,
 						'class' => 'variant_radiobutton',
-						'style' => (count($data->specifications) < 2) ? 'display:none;' : '',
+						'style' => (count($product->specifications) < 2) ? 'display:none;' : '',
 					)); ?>
 					</td>
 					<td>

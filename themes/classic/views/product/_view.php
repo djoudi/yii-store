@@ -36,7 +36,7 @@
 				<tr class="variant">
 					<td>
 						<?php echo CHtml::radioButton('variant', ($key == 0), array(
-						'id' => 'product_' . $specification->id,
+						'id' => 'variant_' . $specification->id,
 						'value' => $specification->id,
 						'class' => 'variant_radiobutton',
 						'style' => (count($data->specifications) < 2) ? 'display:none;' : '',
@@ -44,7 +44,7 @@
 					</td>
 					<td>
 						<?php if ($specification->name): ?>
-						<?php echo CHtml::label($specification->name, 'featured_' . $specification->id, array(
+						<?php echo CHtml::label($specification->name, 'variant_' . $specification->id, array(
 							'class' => 'variant_name',
 						)); ?>
 						<?php endif; ?>

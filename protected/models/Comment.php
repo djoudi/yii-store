@@ -47,7 +47,11 @@ class Comment extends CommentBase
 		return CMap::mergeArray(
 			parent::defaultScope(),
 			array(
-				'order' => 'comment.create_time DESC',
+				'condition' => 'comment.status = :status OR comment.ip = :ip',
+				'params' => array(
+					':status' => self::STATUS_ENABLED,
+					':ip' => Yii::app()->request->userHostAddress,
+				),
 			)
 		);
 	}
@@ -58,7 +62,7 @@ class Comment extends CommentBase
 	public function isEnable()
 	{
 		return $this->exists(array(
-			'condition' => 'status =:status AND ip =:ip',
+			'condition' => 'status = :status AND ip = :ip',
 			'params' => array(
 				':status' => self::STATUS_ENABLED,
 				':ip' => Yii::app()->request->userHostAddress,

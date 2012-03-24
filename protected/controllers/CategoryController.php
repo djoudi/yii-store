@@ -16,12 +16,20 @@ class CategoryController extends Controller
 			throw new CHttpException(404, 'Запрашиваемая страница не существует.');
 
 		$brands = Brand::model()->findAll(array(
+			'select' => 'brand.id, brand.name',
 			'with' => array(
-				'categories' => array(
+				'products' => array(
 					'select' => false,
+					'joinType' => 'LEFT JOIN',
+					'with' => array(
+						'categories' => array(
+							'select' => false,
+							'joinType' => 'LEFT JOIN',
+						),
+					)
 				),
 			),
-			'condition' => 'product_category.category_id = :category_id',
+			'condition' => 'category.id = :category_id OR category.parent_id = :category_id',
 			'params' => array(':category_id' => $category->id),
 		));
 
@@ -35,7 +43,7 @@ class CategoryController extends Controller
 						'together' => true,
 					),
 				),
-				'condition' => 'product_category.category_id = :category_id',
+				'condition' => 'category.id = :category_id OR category.parent_id = :category_id',
 				'params' => array(':category_id' => $category->id),
 			),
 		));

@@ -16,7 +16,7 @@
 	<!-- Большое фото -->
 	<?php if ($product->images): ?>
 	<div class="image">
-		<a href="<?php echo $product->images[0]->filen; ?>" class="zoom" data-rel="group">
+		<a href="<?php echo $product->images[0]->file; ?>" class="zoom" data-rel="group">
 			<img src="<?php echo $product->images[0]->file; ?>" alt="<?php echo CHtml::encode($product->name); ?>" />
 		</a>
 	</div>
@@ -41,7 +41,7 @@
 						'id' => 'product_' . $specification->id,
 						'value' => $specification->id,
 						'class' => 'variant_radiobutton',
-						'style' => (count($data->specifications) < 2) ? 'display:none;' : '',
+						'style' => (count($product->specifications) < 2) ? 'display:none;' : '',
 					)); ?>
 					</td>
 					<td>
@@ -83,14 +83,14 @@
 	<!-- Дополнительные фото продукта (The End)-->
 
 
-	<?php if (count($product->options) > 0): ?>
+	<?php if (count($product->features) > 0): ?>
 	<!-- Характеристики товара -->
 	<h2>Характеристики</h2>
 	<ul class="features">
-		<?php foreach ($product->options as $option): ?>
+		<?php foreach ($product->features as $feature): ?>
 		<li>
-			<label><?php echo $option->name; ?></label>
-			<span><?php echo $option->value; ?></span>
+			<label><?php echo $feature->name; ?></label>
+			<span><?php echo $feature->value; ?></span>
 		</li>
 		<?php endforeach; ?>
 	</ul>
@@ -113,8 +113,7 @@
 </div>
 <!-- Описание товара (The End)-->
 
-{* Связанные товары *}
-{if $related_products}
+<?php if (count($product->related) > 0): ?>
 <h2>Так же советуем посмотреть</h2>
 <!-- Список каталога товаров-->
 <ul class="tiny_products">
@@ -171,7 +170,7 @@
 	<!-- Товар (The End)-->
 	{/foreach}
 </ul>
-{/if}
+<?php endif; ?>
 
 <!-- Комментарии -->
 <div id="comments">
@@ -179,7 +178,7 @@
 	<h2>Комментарии</h2>
 	<?php if (count($product->comments) >= 1): ?>
 	<?php $this->renderPartial('/comments/_view', array(
-		'post' => $model,
+		'model' => $product,
 		'comments' => $product->comments,
 	)); ?>
 	<?php else: ?>

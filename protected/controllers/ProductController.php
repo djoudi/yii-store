@@ -53,8 +53,6 @@ class ProductController extends Controller
 		$browsedProducts = array_slice($browsedProducts, -$browsedProductsLimit, $browsedProductsLimit);
 		Yii::app()->session['browsedProducts'] = $browsedProducts;
 
-		$options = Feature::model()->with('options')->findAll();
-
 
 		$this->render('view', array(
 			'product' => $product,
