@@ -9,14 +9,24 @@ class Controller extends CController
 	public $layout = '/layouts/main';
 
 	/**
-	 * @var string
+	 * @var string the page meta title.
 	 */
-	public $pageKeywords;
+	public $metaTitle;
 
 	/**
-	 * @var string
+	 * @var string the page meta description.
 	 */
-	public $pageDescription;
+	public $metaDescription;
+
+	/**
+	 * @var string the page meta keywords.
+	 */
+	public $metaKeywords;
+
+	/**
+	 * @var string the canonical URL.
+	 */
+	public $canonical;
 
 	/**
 	 * @return mixed
@@ -24,7 +34,7 @@ class Controller extends CController
 	public function getPage()
 	{
 		$page = Page::model()->find(array(
-			'condition' => 'controller=:controller AND action=:action',
+			'condition' => 'controller = :controller AND action = :action',
 			'params' => array(
 				':controller' => $this->id,
 				':action' => $this->action->id,
@@ -33,9 +43,9 @@ class Controller extends CController
 
 		if ($page)
 		{
-			$this->pageTitle = $page->meta_title;
-			$this->pageKeywords = $page->meta_keywords;
-			$this->pageDescription = $page->meta_description;
+			$this->metaTitle = $page->meta_title;
+			$this->metaKeywords = $page->meta_keywords;
+			$this->metaDescription = $page->meta_description;
 		}
 
 		return $page;

@@ -22,7 +22,6 @@ class Page extends PageBase
 			array(
 				'condition' => 'page.status = :status',
 				'params' => array(':status' => Page::STATUS_ENABLED),
-				'order' => 'page.position',
 			)
 		);
 	}

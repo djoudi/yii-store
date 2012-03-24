@@ -1,38 +1,35 @@
-<!-- Товар-->
-<li class="product">
+<?php if (count($this->products) > 0): ?>
+<!-- Список товаров-->
+<h1>Рекомендуемые товары</h1>
+<ul class="tiny_products">
 
-	<!-- Фото товара -->
-	<?php if ($data->images): ?>
-	<div class="image">
-		<a href="<?php echo $data->url; ?>">
-			<?php echo CHtml::image($data->images[0]->file, $data->name); ?>
-		</a>
-	</div>
-	<?php endif; ?>
-	<!-- Фото товара (The End) -->
+	<?php foreach ($this->products as $product): ?>
+	<!-- Товар-->
+	<li class="product">
 
-	<div class="product_info">
+		<!-- Фото товара -->
+		<?php if (count($product->images) > 0): ?>
+		<div class="image">
+			<a href="<?php echo $product->url; ?>">
+				<?php echo CHtml::image($product->images[0]->file, CHtml::encode($product->name)); ?>
+			</a>
+		</div>
+		<?php endif; ?>
+		<!-- Фото товара (The End) -->
+
 		<!-- Название товара -->
 		<h3>
-			<?php echo CHtml::link(CHtml::encode($data->name), $data->url, array(
-				'data-product' => $data->id,
+			<?php echo CHtml::link(CHtml::encode($product->name), $product->url, array(
+				'data-product' => $product->id,
 			)); ?>
 		</h3>
 		<!-- Название товара (The End) -->
 
-		<!-- Описание товара -->
-		<div class="annotation">
-			<?php $this->beginWidget('CHtmlPurifier'); ?>
-			<?php echo $data->annotation; ?>
-			<?php $this->endWidget(); ?>
-		</div>
-		<!-- Описание товара (The End) -->
-
-		<?php if (count($data->specifications) > 0): ?>
+		<?php if (count($product->specifications) > 0): ?>
 		<!-- Выбор варианта товара -->
 		<form class="variants" action="/cart">
 			<table>
-				<?php foreach ($data->specifications as $key => $specification): ?>
+				<?php foreach ($product->specifications as $key => $specification): ?>
 				<tr class="variant">
 					<td>
 						<?php echo CHtml::radioButton('variant', ($key == 0), array(
@@ -65,7 +62,9 @@
 		Нет в наличии
 		<?php endif; ?>
 
-	</div>
+	</li>
+	<!-- Товар (The End)-->
+	<?php endforeach; ?>
 
-</li>
-<!-- Товар (The End)-->
+</ul>
+<?php endif; ?>

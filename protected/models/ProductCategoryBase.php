@@ -20,12 +20,21 @@ class ProductCategoryBase extends CActiveRecord
 	}
 
 	/**
-	 * @return array relational rules.
+	 * @return array
+	 */
+	public function primaryKey()
+	{
+		return array(
+			'product_id',
+			'category_id',
+		);
+	}
+
+	/**
+	 * @return array
 	 */
 	public function relations()
 	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
 		return array(
 			'products' => array(self::HAS_MANY, 'Product', 'product_id'),
 			'categories' => array(self::HAS_MANY, 'Category', 'category_id'),

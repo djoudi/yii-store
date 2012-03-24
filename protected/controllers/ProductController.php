@@ -9,15 +9,27 @@
 class ProductController extends Controller
 {
 
-	public function actionView($url)
+	/**
+	 * @return array
+	 */
+	public function actions()
 	{
-		$model = Product::model()->find(array(
-			'condition' => 'product.url=:url',
-			'params' => array(
-				':url' => $url,
+		return array(
+			'captcha' => array(
+				'class' => 'CCaptchaAction',
+				'backColor' => 0xFFFFFF,
 			),
-		));
-		if ($model === null)
+		);
+	}
+
+	/**
+	 * @param $id
+	 * @throws CHttpException
+	 */
+	public function actionView($id)
+	{
+		$product = Product::model()->findByPk($id);
+		if ($product === null)
 			throw new CHttpException(404, 'Запрашиваемая страница не существует.');
 
 
@@ -31,20 +43,24 @@ class ProductController extends Controller
 		if (!empty($browsedProducts))
 		{
 			// Удалим текущий товар, если он был
-			if (($key = array_search($model->id, $browsedProducts)) !== false)
+			if (($key = array_search($product->id, $browsedProducts)) !== false)
 				unset($browsedProducts[$key]);
 		}
 
 		// Добавим текущий товар
-		$browsedProducts[] = $model->id;
+		$browsedProducts[] = $product->id;
 		$browsedProductsLimit = Yii::app()->params['browsedProductsLimit'];
 		$browsedProducts = array_slice($browsedProducts, -$browsedProductsLimit, $browsedProductsLimit);
 		Yii::app()->session['browsedProducts'] = $browsedProducts;
 
+		$options = Feature::model()->with('options')->findAll();
+
 
 		$this->render('view', array(
-			'model' => $model,
-			'comment' => $this->newComment($model),
+			'product' => $product,
+			'prevProduct' => Product::model()->findPrevProduct($product->id),
+			'nextProduct' => Product::model()->findNextProduct($product->id),
+			'comment' => $this->newComment($product),
 		));
 	}
 
@@ -54,7 +70,7 @@ class ProductController extends Controller
 	 */
 	public function newComment(Product $product)
 	{
-		$comment = new Comment;
+		$comment = new Comment('create');
 
 		if (isset($_POST['ajax']) && $_POST['ajax'] === 'comment-form')
 		{

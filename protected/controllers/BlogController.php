@@ -2,17 +2,6 @@
 
 class BlogController extends Controller
 {
-	/**
-	 * @return array
-	 */
-	public function behaviors()
-	{
-		return array(
-			'comment' => array(
-				'class' => 'ext.comment.CommentControllerBehavior',
-			),
-		);
-	}
 
 	/**
 	 * Declares class-based actions
@@ -70,7 +59,7 @@ class BlogController extends Controller
 	 */
 	public function newComment(Blog $blog)
 	{
-		$comment = new Comment;
+		$comment = new Comment('create');
 
 		if (isset($_POST['ajax']) && $_POST['ajax'] === 'comment-form')
 		{

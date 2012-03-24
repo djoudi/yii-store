@@ -6,19 +6,12 @@
 
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/reset.css" rel="stylesheet">
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.css" rel="stylesheet">
-
-	<!--<script src="<?php /*echo Yii::app()->theme->baseUrl; */?>/js/jquery/jquery.js"></script>-->
+	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/js/baloon/css/baloon.css" rel="stylesheet">
 
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
-
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/ctrlnavigate.js"></script>
-
-	<!--<script src="<?php /*echo Yii::app()->theme->baseUrl; */?>/js/jquery-ui.min.js"></script>-->
-	<!--<script src="<?php /*echo Yii::app()->theme->baseUrl; */?>/js/ajax_cart.js"></script>-->
-
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/baloon/js/baloon.js"></script>
-	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/js/baloon/css/baloon.css" rel="stylesheet">
 </head>
 <body>
 
@@ -60,8 +53,8 @@
 <!-- Шапка -->
 <div id="header">
 	<div id="logo">
-		<a href="/">
-			<img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/logo.png" title="<?php echo Yii::app()->name; ?>" alt="<?php echo Yii::app()->name; ?>">
+		<a href="<?php echo Yii::app()->homeUrl; ?>">
+			<?php echo CHtml::image(Yii::app()->theme->baseUrl. '/images/logo.png', Yii::app()->name); ?>
 		</a>
 	</div>
 	<div id="contact">
@@ -80,6 +73,7 @@
 	</div>
 	<!-- Основная часть (The End) -->
 
+	<!-- Левая часть -->
 	<div id="left">
 
 		<!-- Поиск-->
@@ -113,7 +107,9 @@
 			'limit' => Yii::app()->params['recentPostsLimit'],
 		)); ?>
 		<!-- Меню блога (The End) -->
+
 	</div>
+	<!-- Левая часть (The End) -->
 
 </div>
 <!-- Вся страница (The End)-->

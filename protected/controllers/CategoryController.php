@@ -21,26 +21,22 @@ class CategoryController extends Controller
 					'select' => false,
 				),
 			),
-			'condition' => 'categories.category_id = :category_id',
+			'condition' => 'product_category.category_id = :category_id',
 			'params' => array(':category_id' => $category->id),
 		));
 
 		$products = new CActiveDataProvider('Product', array(
 			'criteria' => array(
 				'with' => array(
-					'specifications',
 					'images',
+					'specifications',
 					'categories' => array(
-						'together' => true,
 						'select' => false,
-						'joinType' => 'INNER JOIN',
-						'condition' => 'product_category.category_id = :category_id',
-						'params' => array(':category_id' => $category->id),
+						'together' => true,
 					),
 				),
-			),
-			'pagination' => array(
-				'pageSize' => 20,
+				'condition' => 'product_category.category_id = :category_id',
+				'params' => array(':category_id' => $category->id),
 			),
 		));
 

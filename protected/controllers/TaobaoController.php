@@ -22,6 +22,7 @@ class TaobaoController extends Controller
 				Yii::import('application.extensions.taobao.request.*');
 				$request = new ItemsSearchRequest;
 				$request->setQ($term);
+				$request->setPageSize(10);
 				$request->setFields('title,pic_url');
 				$shop = Yii::app()->taobao->execute($request);
 

@@ -39,6 +39,90 @@ class Product extends ProductBase
 	}
 
 	/**
+	 * @param array $productsIds
+	 * @param int $limit
+	 * @return mixed
+	 */
+	public function findBrowsedProducts(array $productsIds, $limit = 20)
+	{
+		$criteria = new CDbCriteria;
+		$criteria->with = array('specifications', 'images');
+		$criteria->limit = $limit;
+		$criteria->addInCondition('product.id', $productsIds);
+
+		return $this->findAll($criteria);
+	}
+
+	/**
+	 * @param int $limit
+	 * @return mixed
+	 */
+	public function findDiscountedProducts($limit = 6)
+	{
+		$discountedQuery = new CDbExpression('(SELECT 1 FROM specification specification WHERE specification.product_id=product.id AND specification.compare_price>0 LIMIT 1) = 1');
+
+		return $this->findAll(array(
+			'with' => array('specifications', 'images'),
+			'condition' => $discountedQuery,
+			'order' => 'product.create_time DESC',
+			'limit' => $limit,
+		));
+	}
+
+	/**
+	 * @param int $limit
+	 * @return mixed
+	 */
+	public function findFeaturedProducts($limit = 6)
+	{
+		return $this->findAll(array(
+			'with' => array('specifications', 'images'),
+			'condition' => 'product.featured=:featured',
+			'params' => array(':featured' => 1),
+			'limit' => $limit,
+		));
+	}
+
+	/**
+	 * @param int $limit
+	 * @return mixed
+	 */
+	public function findCreatedProducts($limit = 6)
+	{
+		return $this->findAll(array(
+			'with' => array('specifications', 'images'),
+			'order' => 'product.create_time DESC',
+			'limit' => $limit,
+		));
+	}
+
+	/**
+	 * @param $id
+	 * @return mixed
+	 */
+	public function findPrevProduct($id)
+	{
+		return $this->find(array(
+			'condition' => 'product.id < :id',
+			'params' => array(':id' => $id),
+			'order' => 'product.create_time DESC, product.id DESC',
+		));
+	}
+
+	/**
+	 * @param $id
+	 * @return mixed
+	 */
+	public function findNextProduct($id)
+	{
+		return $this->find(array(
+			'condition' => 'product.id > :id',
+			'params' => array(':id' => $id),
+			'order' => 'product.create_time, product.id',
+		));
+	}
+
+	/**
 	 * @param Comment $comment
 	 * @return bool
 	 */

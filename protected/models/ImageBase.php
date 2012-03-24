@@ -5,7 +5,6 @@
  *
  * The followings are the available columns in table 'image':
  * @property string $id
- * @property string $name
  * @property string $product_id
  * @property string $file
  * @property string $position
@@ -27,12 +26,12 @@ abstract class ImageBase extends CActiveRecord
 	public function rules()
 	{
 		return array(
-			array('name, product_id, file, position', 'required'),
-			array('name, file', 'length', 'max' => 255),
+			array('product_id, file, position', 'required'),
+			array('file', 'length', 'max' => 255),
 			array('product_id, position', 'length', 'max' => 10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, product_id, file, position', 'safe', 'on' => 'search'),
+			array('id,product_id, file, position', 'safe', 'on' => 'search'),
 		);
 	}
 
@@ -53,7 +52,6 @@ abstract class ImageBase extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
 			'product_id' => 'Product',
 			'file' => 'File',
 			'position' => 'Position',

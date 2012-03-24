@@ -39,12 +39,13 @@ abstract class ProductBase extends CActiveRecord
 	public function relations()
 	{
 		return array(
-			'brand' => array(self::BELONGS_TO, 'Brand', 'product_id'),
+			'brand' => array(self::BELONGS_TO, 'Brand', 'brand_id'),
 			'specifications' => array(self::HAS_MANY, 'Specification', 'product_id'),
+			'options' => array(self::MANY_MANY, 'Feature',
+				'product_option(product_id,feature_id)'),
 			'images' => array(self::HAS_MANY, 'Image', 'product_id'),
 			'comments' => array(self::HAS_MANY, 'Comment', 'object_id'),
-			'categories' => array(self::MANY_MANY, 'Category',
-				'product_category(product_id,category_id)'),
+			'categories' => array(self::HAS_MANY, 'ProductCategory', 'product_id'),
 		);
 	}
 
