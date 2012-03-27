@@ -11,7 +11,7 @@
 		<?php if ($images = $product->images): ?>
 		<div class="image">
 			<a href="/products/<?php echo $product->url; ?>">
-				<?php echo CHtml::image($images[0]->file, $product->name); ?>
+				<?php echo $product->images[0]->getImage(200,200,$product->name); ?>
 			</a>
 		</div>
 		<?php endif; ?>

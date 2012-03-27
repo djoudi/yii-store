@@ -16,8 +16,8 @@
 	<!-- Большое фото -->
 	<?php if ($product->images): ?>
 	<div class="image">
-		<a href="<?php echo $product->images[0]->file; ?>" class="zoom" data-rel="group">
-			<img src="<?php echo $product->images[0]->file; ?>" alt="<?php echo CHtml::encode($product->name); ?>" />
+		<a href="<?php echo $product->images[0]->getSrc(800,600); ?>" class="zoom" data-rel="group">
+			<?php echo $product->images[0]->getImage(300,300,$product->name); ?>
 		</a>
 	</div>
 	<?php endif; ?>
@@ -71,11 +71,11 @@
 	<!-- Описание товара (The End)-->
 
 	<!-- Дополнительные фото продукта -->
-	<?php if (count($product->images) >1 ): ?>
+	<?php if (count($product->images) > 1): ?>
 	<div class="images">
 		<?php foreach ($product->images as $image): ?>
-		<a href="<?php echo $image->file; ?>" class="zoom" data-rel="group">
-			<img src="<?php echo $image->file; ?>" alt="<?php CHtml::encode($product->name); ?>" />
+		<a href="<?php echo $image->getSrc(800,600); ?>" class="zoom" data-rel="group">
+			<?php echo $image->getImage(95,95,$product->name); ?>
 		</a>
 		<?php endforeach; ?>
 	</div>

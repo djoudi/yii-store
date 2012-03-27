@@ -42,7 +42,7 @@ class CategoriesMenu extends CWidget
 			{
 				$items[] = array(
 					'label' => $category->name,
-					'url' => $category->url,
+					'url' => array('category/view','id'=>$category->id,'name'=>$category->name),
 					'items' => $this->_getItems($categories, $category->id)
 				);
 			}

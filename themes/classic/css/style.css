@@ -248,7 +248,7 @@ e[type="button"] {
 #catalog_menu ul li img{
 	vertical-align: middle;
 }
-#catalog_menu ul li a.selected{
+#catalog_menu ul li.selected > a{
 	color: #ffffff;
 	background-color: #0095eb;
 	padding: 3px;

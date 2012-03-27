@@ -4,7 +4,7 @@
 	<?php foreach ($this->products as $product): ?>
 	<li>
 		<a href="<?php echo $product->url; ?>">
-			<?php echo CHtml::image('/assets/products/'.$product->images[0]->file, $product->name); ?>
+			<?php echo $product->images[0]->getImage(50,50,$product->name); ?>
 		</a>
 	</li>
 	<?php endforeach; ?>

@@ -15,9 +15,10 @@ return array(
 	// autoloading model and component classes
 	'import' => array(
 		'application.models.*',
+		'application.helpers.*',
 		'application.components.*',
-		'application.components.products.*',
 		'application.components.toabao.*',
+		'application.components.products.*',
 	),
 
 	'modules' => array(
@@ -31,6 +32,10 @@ return array(
 			'appkey' => '12033604',
 			'secretKey' => '21067fee0890d5f283d7dd12b2ea7f19',
 			'format' => 'json',
+		),
+		'image' => array(
+			'class' => 'application.extensions.image.CImageComponent',
+			'driver' => 'GD',
 		),
 		'user' => array(
 			// enable cookie-based authentication

@@ -36,8 +36,8 @@ abstract class ProductFeatureBase extends CActiveRecord
 	public function relations()
 	{
 		return array(
-			'products' => array(self::HAS_MANY, 'Product', 'product_id'),
-			'features' => array(self::HAS_MANY, 'Feature', 'feature_id'),
+			'products' => array(self::BELONGS_TO, 'Product', 'product_id'),
+			'features' => array(self::BELONGS_TO, 'Feature', 'feature_id'),
 		);
 	}
 

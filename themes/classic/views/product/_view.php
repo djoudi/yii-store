@@ -5,7 +5,7 @@
 	<?php if ($data->images): ?>
 	<div class="image">
 		<a href="<?php echo $data->url; ?>">
-			<?php echo CHtml::image($data->images[0]->file, $data->name); ?>
+			<?php echo $data->images[0]->getImage(200,200,$data->name); ?>
 		</a>
 	</div>
 	<?php endif; ?>

@@ -80,10 +80,6 @@
 		<?php $this->widget('ProductSearch'); ?>
 		<!-- Поиск (The End)-->
 
-		<!-- Поиск-->
-		<?php $this->widget('TaobaoSearch'); ?>
-		<!-- Поиск (The End)-->
-
 		<!-- Меню каталога -->
 		<?php $this->widget('CategoriesMenu'); ?>
 		<!-- Меню каталога (The End)-->

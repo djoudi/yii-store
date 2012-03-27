@@ -2,6 +2,9 @@
 
 class Feature extends FeatureBase
 {
+
+	public $value;
+
 	/**
 	 * @param string $className
 	 * @return Feature
