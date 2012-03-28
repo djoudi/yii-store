@@ -49,10 +49,8 @@ abstract class ProductBase extends CActiveRecord
 			),
 			'categories' => array(self::MANY_MANY, 'Category',
 				'product_category(product_id,category_id)'),
-			'features' => array(self::HAS_MANY, 'ProductFeature', 'product_id',
-				'joinType' => 'LEFT JOIN'),
-			'related' => array(self::MANY_MANY, 'Product',
-				'product_related(product_id,related_id)'),
+			'options' => array(self::HAS_MANY, 'ProductFeature', 'product_id'),
+			'related' => array(self::HAS_MANY, 'ProductRelated', 'product_id'),
 		);
 	}
 

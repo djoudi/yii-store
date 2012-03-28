@@ -25,7 +25,7 @@ class PagesMenu extends CWidget
 		{
 			$menu[] = array(
 				'label' => $page->name,
-				'url' => $page->url,
+				'url' => array(implode('/', array($page->controller, $page->action))),
 			);
 		}
 

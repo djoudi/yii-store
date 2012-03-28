@@ -27,6 +27,9 @@ return array(
 
 	// application components
 	'components' => array(
+		'cart' => array(
+			'class' => 'application.extensions.cart.Cart',
+		),
 		'taobao' => array(
 			'class' => 'application.extensions.taobao.TopClient',
 			'appkey' => '12033604',

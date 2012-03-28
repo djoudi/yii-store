@@ -20,6 +20,7 @@ class Specification extends SpecificationBase
 		return CMap::mergeArray(
 			parent::defaultScope(),
 			array(
+				'select' => array('*', 'IFNULL(specification.stock, 50) AS stock'),
 				'order' => 'specification.position',
 			)
 		);

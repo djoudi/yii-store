@@ -30,7 +30,7 @@
 
 		<?php if (count($data->specifications) > 0): ?>
 		<!-- Выбор варианта товара -->
-		<form class="variants" action="/cart">
+		<form class="variants" action="/cart/create">
 			<table>
 				<?php foreach ($data->specifications as $key => $specification): ?>
 				<tr class="variant">

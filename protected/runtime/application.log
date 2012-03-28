@@ -5817,3 +5817,1629 @@ Stack trace:
 REQUEST_URI=/product/5-Nokia+C5-03
 HTTP_REFERER=http://yii-store/product/4-HTC+Sensation
 ---
+2012/03/27 12:11:22 [error] [exception.CException] exception 'CException' with message 'Для работы компонента CXCache необходимо PHP-расширение XCache.' in Z:\home\yii-store.dev\www\framework\caching\CXCache.php:34
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): CXCache->init()
+#1 Z:\home\yii-store.dev\www\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#2 Z:\home\yii-store.dev\www\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#3 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): CUrlManager->init()
+#4 Z:\home\yii-store.dev\www\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#5 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(134): CApplication->getUrlManager()
+#6 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2012/03/27 12:12:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection не удалось открыть соединение с базой данных: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in Z:\home\yii-store.dev\www\framework\db\CDbConnection.php:382
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 Z:\home\yii-store.dev\www\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): CDbConnection->init()
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Page))
+#7 Z:\home\yii-store.dev\www\protected\models\Page.php(12): CActiveRecord::model('Page')
+#8 Z:\home\yii-store.dev\www\protected\components\Controller.php(36): Page::model()
+#9 Z:\home\yii-store.dev\www\framework\base\CComponent.php(112): Controller->getPage()
+#10 Z:\home\yii-store.dev\www\themes\classic\views\site\index.php(1): CComponent->__get('page')
+#11 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#12 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, true)
+#13 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', NULL, true)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#15 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(33): CController->render('index')
+#16 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('')
+#21 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#24 {main}
+REQUEST_URI=/
+---
+2012/03/27 12:13:41 [error] [php] include(ContactForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\yii-store.dev\www\framework\YiiBase.php:418)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(55): spl_autoload_call()
+#1 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#2 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 Z:\home\yii-store.dev\www\framework\web\CController.php(287): SiteController->runAction()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): SiteController->run()
+#6 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/site/contact
+in Z:\home\yii-store.dev\www\protected\controllers\SiteController.php (55)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/27 12:42:11 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductFeature.name".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('name')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(92): CActiveRecord->__get('name')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('1')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/1-Apple+iPhone+4S+16Gb
+HTTP_REFERER=http://yii-store.dev/brand/1-Apple
+---
+2012/03/27 12:42:50 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductFeature.name".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('name')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(92): CActiveRecord->__get('name')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('1')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/1-Apple+iPhone+4S+16Gb
+HTTP_REFERER=http://yii-store.dev/brand/1-Apple
+---
+2012/03/27 12:43:08 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductFeature.feture".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('feture')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(92): CActiveRecord->__get('feture')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('1')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/1-Apple+iPhone+4S+16Gb
+HTTP_REFERER=http://yii-store.dev/brand/1-Apple
+---
+2012/03/27 12:43:11 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductFeature.feture".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('feture')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(92): CActiveRecord->__get('feture')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('1')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/1-Apple+iPhone+4S+16Gb
+HTTP_REFERER=http://yii-store.dev/brand/1-Apple
+---
+2012/03/27 12:44:01 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductFeature.feature".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('feature')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(92): CActiveRecord->__get('feature')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('1')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/1-Apple+iPhone+4S+16Gb
+HTTP_REFERER=http://yii-store.dev/brand/1-Apple
+---
+2012/03/27 12:46:40 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductFeature.feature".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('feature')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(92): CActiveRecord->__get('feature')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('1')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/1-Apple+iPhone+4S+16Gb
+HTTP_REFERER=http://yii-store.dev/brand/1-Apple
+---
+2012/03/27 13:47:46 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii-store.productrelated' doesn't exist. Выполнявшийся SQL-запрос: SHOW COLUMNS FROM `ProductRelated`.
+in Z:\home\yii-store.dev\www\themes\classic\views\product\view.php (116)
+in Z:\home\yii-store.dev\www\protected\controllers\ProductController.php (61)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/27 13:47:46 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "ProductRelated", упомянутая в записи active record класса "ProductRelated", не найдена в базе данных.' in Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(ProductRelated))
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(219): CActiveRecord::model('ProductRelated')
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(49): CActiveFinder->buildJoinTree(Object(CJoinElement), 'related')
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(268): CActiveFinder->__construct(Object(Product), 'related')
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(142): CActiveRecord->getRelated('related')
+#5 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(116): CActiveRecord->__get('related')
+#6 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#7 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#8 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#9 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#10 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#11 [internal function]: ProductController->actionView('3')
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#18 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#19 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#21 {main}
+REQUEST_URI=/product/3-HTC+Incredible+S
+HTTP_REFERER=http://yii-store.dev/
+---
+2012/03/27 13:48:42 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii-store.productrelated' doesn't exist. Выполнявшийся SQL-запрос: SHOW COLUMNS FROM `ProductRelated`.
+in Z:\home\yii-store.dev\www\themes\classic\views\product\view.php (116)
+in Z:\home\yii-store.dev\www\protected\controllers\ProductController.php (61)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/27 13:48:42 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "ProductRelated", упомянутая в записи active record класса "ProductRelated", не найдена в базе данных.' in Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(ProductRelated))
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(219): CActiveRecord::model('ProductRelated')
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(49): CActiveFinder->buildJoinTree(Object(CJoinElement), 'related')
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(268): CActiveFinder->__construct(Object(Product), 'related')
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(142): CActiveRecord->getRelated('related')
+#5 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(116): CActiveRecord->__get('related')
+#6 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#7 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#8 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#9 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#10 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#11 [internal function]: ProductController->actionView('3')
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#18 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#19 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#21 {main}
+REQUEST_URI=/product/3-HTC+Incredible+S
+HTTP_REFERER=http://yii-store.dev/
+---
+2012/03/27 13:49:04 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii-store.productrelated' doesn't exist. Выполнявшийся SQL-запрос: SHOW COLUMNS FROM `ProductRelated`.
+in Z:\home\yii-store.dev\www\themes\classic\views\product\view.php (116)
+in Z:\home\yii-store.dev\www\protected\controllers\ProductController.php (61)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/27 13:49:04 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "ProductRelated", упомянутая в записи active record класса "ProductRelated", не найдена в базе данных.' in Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(ProductRelated))
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(219): CActiveRecord::model('ProductRelated')
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(49): CActiveFinder->buildJoinTree(Object(CJoinElement), 'related')
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(268): CActiveFinder->__construct(Object(Product), 'related')
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(142): CActiveRecord->getRelated('related')
+#5 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(116): CActiveRecord->__get('related')
+#6 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#7 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#8 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#9 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#10 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#11 [internal function]: ProductController->actionView('3')
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#18 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#19 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#21 {main}
+REQUEST_URI=/product/3-HTC+Incredible+S
+HTTP_REFERER=http://yii-store.dev/
+---
+2012/03/27 13:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "dc23_pink_weis_klein.jpeg".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('dc23_pink_weis_...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('dc23_pink_weis_...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/dc23_pi...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/product/dc23_pink_weis_klein.jpeg
+HTTP_REFERER=http://yii-store.dev/product/29-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81+Dyson+DC23+Pink
+---
+2012/03/27 13:55:39 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductRelated.images".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('images')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(125): CActiveRecord->__get('images')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('29')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/29-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81+Dyson+DC23+Pink
+HTTP_REFERER=http://yii-store.dev/category/3-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81%D1%8B
+---
+2012/03/27 13:56:48 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductRelated.product".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('product')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(125): CActiveRecord->__get('product')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('29')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/29-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81+Dyson+DC23+Pink
+HTTP_REFERER=http://yii-store.dev/category/3-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81%D1%8B
+---
+2012/03/27 13:57:29 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductRelated.url".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('url')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(127): CActiveRecord->__get('url')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('29')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/29-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81+Dyson+DC23+Pink
+HTTP_REFERER=http://yii-store.dev/category/3-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81%D1%8B
+---
+2012/03/27 13:57:45 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "ProductRelated.name".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('name')
+#1 Z:\home\yii-store.dev\www\themes\classic\views\product\view.php(128): CActiveRecord->__get('name')
+#2 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#3 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', Array, true)
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', Array, true)
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 Z:\home\yii-store.dev\www\protected\controllers\ProductController.php(61): CController->render('view', Array)
+#7 [internal function]: ProductController->actionView('29')
+#8 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#9 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('view')
+#14 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view')
+#15 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#17 {main}
+REQUEST_URI=/product/29-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81+Dyson+DC23+Pink
+HTTP_REFERER=http://yii-store.dev/category/3-%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81%D1%8B
+---
+2012/03/28 07:31:15 [error] [php] include(ContactForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\yii-store.dev\www\framework\YiiBase.php:418)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(55): spl_autoload_call()
+#1 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#2 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 Z:\home\yii-store.dev\www\framework\web\CController.php(287): SiteController->runAction()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): SiteController->run()
+#6 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/site/contact
+in Z:\home\yii-store.dev\www\protected\controllers\SiteController.php (55)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 07:37:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in Z:\home\yii-store.dev\www\framework\web\CController.php:337
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('search')
+#4 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/search')
+#5 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#7 {main}
+REQUEST_URI=/product/search?product=htc&yt0=
+HTTP_REFERER=http://yii-store.dev/
+---
+2012/03/28 07:47:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in Z:\home\yii-store.dev\www\framework\web\CController.php:337
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('search')
+#4 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/search')
+#5 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#7 {main}
+REQUEST_URI=/product/search?product=Nokia+C5-03&yt0=
+HTTP_REFERER=http://yii-store.dev/
+---
+2012/03/28 07:48:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in Z:\home\yii-store.dev\www\framework\web\CController.php:337
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('search')
+#4 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('product/search')
+#5 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#7 {main}
+REQUEST_URI=/product/search?product=Nokia+C5-03&yt0=
+HTTP_REFERER=http://yii-store.dev/product/search?product=Nokia+C5-03&yt0=
+---
+2012/03/28 08:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "cart/index".' in Z:\home\yii-store.dev\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/index')
+#1 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#3 {main}
+REQUEST_URI=/cart?variant=4
+HTTP_REFERER=http://yii-store.dev/
+---
+2012/03/28 08:23:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('index')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('index')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/index')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart?variant=4
+HTTP_REFERER=http://yii-store.dev/
+---
+2012/03/28 08:53:55 [error] [exception.CException] exception 'CException' with message 'В классе Cart и его поведениях не найден метод или замыкание с именем "init".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): CComponent->__call('init', Array)
+#1 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): Cart->init()
+#2 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CModule->getComponent('cart')
+#3 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(27): CModule->__get('cart')
+#4 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): CartController->actionIndex()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('index')
+#9 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/index')
+#10 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#12 {main}
+REQUEST_URI=/cart/index
+---
+2012/03/28 09:02:16 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.stock FROM `specification` `specification` WHERE `specification`.`id`='5' ORDER' at line 1. Выполнявшийся SQL-запрос: SELECT specification.*, IFNULL(specification.stock, 50) as specification.stock FROM `specification` `specification` WHERE `specification`.`id`='5' ORDER BY specification.position LIMIT 1.
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (75)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (20)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 09:02:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.stock FROM `specification` `specification` WHERE `specification`.`id`='5' ORDER' at line 1. The SQL statement executed was: SELECT specification.*, IFNULL(specification.stock, 50) as specification.stock FROM `specification` `specification` WHERE `specification`.`id`='5' ORDER BY specification.position LIMIT 1' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1422): CActiveRecord->query(Object(CDbCriteria))
+#3 Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php(75): CActiveRecord->findByPk('5')
+#4 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(20): Cart->create('5', 1)
+#5 [internal function]: CartController->actionCreate('5', 1)
+#6 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#7 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#8 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('create')
+#12 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/create')
+#13 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#15 {main}
+REQUEST_URI=/cart/create?variant=5
+---
+2012/03/28 11:49:32 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specificati' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `specification`.`id` AS `t1_c0`, `specification`.`product_id` AS `t1_c1`, `specification`.`sku` AS `t1_c2`, `specification`.`name` AS `t1_c3`, `specification`.`price` AS `t1_c4`, `specification`.`compare_price` AS `t1_c5`, `specification`.`stock` AS `t1_c6`, `specification`.`position` AS `t1_c7`, `specification`.`stock` AS `t1_c6`, 50) AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position.
+in Z:\home\yii-store.dev\www\protected\models\Product.php (83)
+in Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php (22)
+in Z:\home\yii-store.dev\www\protected\components\products\views\featured.php (1)
+2012/03/28 11:49:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specificati' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `specification`.`id` AS `t1_c0`, `specification`.`product_id` AS `t1_c1`, `specification`.`sku` AS `t1_c2`, `specification`.`name` AS `t1_c3`, `specification`.`price` AS `t1_c4`, `specification`.`compare_price` AS `t1_c5`, `specification`.`stock` AS `t1_c6`, `specification`.`position` AS `t1_c7`, `specification`.`stock` AS `t1_c6`, 50) AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(460): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(464): CJoinElement->find()
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#6 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#7 Z:\home\yii-store.dev\www\protected\models\Product.php(83): CActiveRecord->findAll(Array)
+#8 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(22): Product->findFeaturedProducts(6)
+#9 Z:\home\yii-store.dev\www\framework\base\CComponent.php(112): FeaturedProducts->getProducts()
+#10 Z:\home\yii-store.dev\www\protected\components\products\views\featured.php(1): CComponent->__get('products')
+#11 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(131): require('Z:\home\yii-sto...')
+#12 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, false)
+#13 Z:\home\yii-store.dev\www\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('Z:\home\yii-sto...', NULL, false)
+#14 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(30): CWidget->render('featured')
+#15 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(174): FeaturedProducts->run()
+#16 Z:\home\yii-store.dev\www\themes\classic\views\site\index.php(11): CBaseController->widget('FeaturedProduct...', Array)
+#17 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#18 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, true)
+#19 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', NULL, true)
+#20 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#21 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(33): CController->render('index')
+#22 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#23 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#24 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#25 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('')
+#27 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#28 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#30 {main}
+REQUEST_URI=/
+---
+2012/03/28 11:50:12 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock, `specification`.`id` AS `t1_c0` FROM `product` `product` LEFT OUTER ' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `specification`.`stock` AS `t1_c6`, 50) AS stock, `specification`.`id` AS `t1_c0` FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position.
+in Z:\home\yii-store.dev\www\protected\models\Product.php (83)
+in Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php (22)
+in Z:\home\yii-store.dev\www\protected\components\products\views\featured.php (1)
+2012/03/28 11:50:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock, `specification`.`id` AS `t1_c0` FROM `product` `product` LEFT OUTER ' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `specification`.`stock` AS `t1_c6`, 50) AS stock, `specification`.`id` AS `t1_c0` FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(460): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(464): CJoinElement->find()
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#6 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#7 Z:\home\yii-store.dev\www\protected\models\Product.php(83): CActiveRecord->findAll(Array)
+#8 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(22): Product->findFeaturedProducts(6)
+#9 Z:\home\yii-store.dev\www\framework\base\CComponent.php(112): FeaturedProducts->getProducts()
+#10 Z:\home\yii-store.dev\www\protected\components\products\views\featured.php(1): CComponent->__get('products')
+#11 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(131): require('Z:\home\yii-sto...')
+#12 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, false)
+#13 Z:\home\yii-store.dev\www\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('Z:\home\yii-sto...', NULL, false)
+#14 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(30): CWidget->render('featured')
+#15 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(174): FeaturedProducts->run()
+#16 Z:\home\yii-store.dev\www\themes\classic\views\site\index.php(11): CBaseController->widget('FeaturedProduct...', Array)
+#17 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#18 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, true)
+#19 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', NULL, true)
+#20 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#21 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(33): CController->render('index')
+#22 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#23 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#24 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#25 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('')
+#27 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#28 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#30 {main}
+REQUEST_URI=/
+---
+2012/03/28 11:50:36 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specificati' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `specification`.`id` AS `t1_c0`, `specification`.`product_id` AS `t1_c1`, `specification`.`sku` AS `t1_c2`, `specification`.`name` AS `t1_c3`, `specification`.`price` AS `t1_c4`, `specification`.`compare_price` AS `t1_c5`, `specification`.`stock` AS `t1_c6`, `specification`.`position` AS `t1_c7`, `specification`.`stock` AS `t1_c6`, 50) AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position.
+in Z:\home\yii-store.dev\www\protected\models\Product.php (83)
+in Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php (22)
+in Z:\home\yii-store.dev\www\protected\components\products\views\featured.php (1)
+2012/03/28 11:50:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specificati' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `specification`.`id` AS `t1_c0`, `specification`.`product_id` AS `t1_c1`, `specification`.`sku` AS `t1_c2`, `specification`.`name` AS `t1_c3`, `specification`.`price` AS `t1_c4`, `specification`.`compare_price` AS `t1_c5`, `specification`.`stock` AS `t1_c6`, `specification`.`position` AS `t1_c7`, `specification`.`stock` AS `t1_c6`, 50) AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(460): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(464): CJoinElement->find()
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#6 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#7 Z:\home\yii-store.dev\www\protected\models\Product.php(83): CActiveRecord->findAll(Array)
+#8 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(22): Product->findFeaturedProducts(6)
+#9 Z:\home\yii-store.dev\www\framework\base\CComponent.php(112): FeaturedProducts->getProducts()
+#10 Z:\home\yii-store.dev\www\protected\components\products\views\featured.php(1): CComponent->__get('products')
+#11 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(131): require('Z:\home\yii-sto...')
+#12 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, false)
+#13 Z:\home\yii-store.dev\www\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('Z:\home\yii-sto...', NULL, false)
+#14 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(30): CWidget->render('featured')
+#15 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(174): FeaturedProducts->run()
+#16 Z:\home\yii-store.dev\www\themes\classic\views\site\index.php(11): CBaseController->widget('FeaturedProduct...', Array)
+#17 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#18 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, true)
+#19 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', NULL, true)
+#20 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#21 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(33): CController->render('index')
+#22 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#23 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#24 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#25 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('')
+#27 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#28 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#30 {main}
+REQUEST_URI=/
+---
+2012/03/28 11:50:44 [error] [exception.CDbException] exception 'CDbException' with message 'ActiveRecord "Specification" пытается выбрать недопустимый столбец "50)". Примечание: столбец должен существовать в таблице или являться выражением с алиасом.' in Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php:974
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(1300): CJoinElement->getColumnSelect('*, IFNULL(speci...')
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(458): CJoinQuery->join(Object(CJoinElement))
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(464): CJoinElement->find()
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 Z:\home\yii-store.dev\www\protected\models\Product.php(83): CActiveRecord->findAll(Array)
+#7 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(22): Product->findFeaturedProducts(6)
+#8 Z:\home\yii-store.dev\www\framework\base\CComponent.php(112): FeaturedProducts->getProducts()
+#9 Z:\home\yii-store.dev\www\protected\components\products\views\featured.php(1): CComponent->__get('products')
+#10 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(131): require('Z:\home\yii-sto...')
+#11 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, false)
+#12 Z:\home\yii-store.dev\www\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('Z:\home\yii-sto...', NULL, false)
+#13 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(30): CWidget->render('featured')
+#14 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(174): FeaturedProducts->run()
+#15 Z:\home\yii-store.dev\www\themes\classic\views\site\index.php(11): CBaseController->widget('FeaturedProduct...', Array)
+#16 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#17 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, true)
+#18 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', NULL, true)
+#19 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#20 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(33): CController->render('index')
+#21 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#22 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#23 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#24 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('')
+#26 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#27 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#28 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#29 {main}
+REQUEST_URI=/
+---
+2012/03/28 11:53:22 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specificati' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `specification`.`id` AS `t1_c0`, `specification`.`product_id` AS `t1_c1`, `specification`.`sku` AS `t1_c2`, `specification`.`name` AS `t1_c3`, `specification`.`price` AS `t1_c4`, `specification`.`compare_price` AS `t1_c5`, `specification`.`stock` AS `t1_c6`, `specification`.`position` AS `t1_c7`, `specification`.`stock` AS `t1_c6`, 50) AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position.
+in Z:\home\yii-store.dev\www\protected\models\Product.php (83)
+in Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php (22)
+in Z:\home\yii-store.dev\www\protected\components\products\views\featured.php (1)
+2012/03/28 11:53:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specificati' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `specification`.`id` AS `t1_c0`, `specification`.`product_id` AS `t1_c1`, `specification`.`sku` AS `t1_c2`, `specification`.`name` AS `t1_c3`, `specification`.`price` AS `t1_c4`, `specification`.`compare_price` AS `t1_c5`, `specification`.`stock` AS `t1_c6`, `specification`.`position` AS `t1_c7`, `specification`.`stock` AS `t1_c6`, 50) AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(460): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(464): CJoinElement->find()
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#6 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#7 Z:\home\yii-store.dev\www\protected\models\Product.php(83): CActiveRecord->findAll(Array)
+#8 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(22): Product->findFeaturedProducts(6)
+#9 Z:\home\yii-store.dev\www\framework\base\CComponent.php(112): FeaturedProducts->getProducts()
+#10 Z:\home\yii-store.dev\www\protected\components\products\views\featured.php(1): CComponent->__get('products')
+#11 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(131): require('Z:\home\yii-sto...')
+#12 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, false)
+#13 Z:\home\yii-store.dev\www\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('Z:\home\yii-sto...', NULL, false)
+#14 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(30): CWidget->render('featured')
+#15 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(174): FeaturedProducts->run()
+#16 Z:\home\yii-store.dev\www\themes\classic\views\site\index.php(11): CBaseController->widget('FeaturedProduct...', Array)
+#17 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#18 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, true)
+#19 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', NULL, true)
+#20 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#21 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(33): CController->render('index')
+#22 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#23 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#24 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#25 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('')
+#27 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#28 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#30 {main}
+REQUEST_URI=/
+---
+2012/03/28 11:53:23 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specificati' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `specification`.`id` AS `t1_c0`, `specification`.`product_id` AS `t1_c1`, `specification`.`sku` AS `t1_c2`, `specification`.`name` AS `t1_c3`, `specification`.`price` AS `t1_c4`, `specification`.`compare_price` AS `t1_c5`, `specification`.`stock` AS `t1_c6`, `specification`.`position` AS `t1_c7`, `specification`.`stock` AS `t1_c6`, 50) AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position.
+in Z:\home\yii-store.dev\www\protected\models\Product.php (83)
+in Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php (22)
+in Z:\home\yii-store.dev\www\protected\components\products\views\featured.php (1)
+2012/03/28 11:53:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specificati' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `specification`.`id` AS `t1_c0`, `specification`.`product_id` AS `t1_c1`, `specification`.`sku` AS `t1_c2`, `specification`.`name` AS `t1_c3`, `specification`.`price` AS `t1_c4`, `specification`.`compare_price` AS `t1_c5`, `specification`.`stock` AS `t1_c6`, `specification`.`position` AS `t1_c7`, `specification`.`stock` AS `t1_c6`, 50) AS stock FROM `product` `product` LEFT OUTER JOIN `specification` `specification` ON (`specification`.`product_id`=`product`.`id`)  WHERE (`product`.`id` IN ('3', '4', '8', '14', '17', '24')) ORDER BY specification.position' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(460): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(464): CJoinElement->find()
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#6 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#7 Z:\home\yii-store.dev\www\protected\models\Product.php(83): CActiveRecord->findAll(Array)
+#8 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(22): Product->findFeaturedProducts(6)
+#9 Z:\home\yii-store.dev\www\framework\base\CComponent.php(112): FeaturedProducts->getProducts()
+#10 Z:\home\yii-store.dev\www\protected\components\products\views\featured.php(1): CComponent->__get('products')
+#11 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(131): require('Z:\home\yii-sto...')
+#12 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, false)
+#13 Z:\home\yii-store.dev\www\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('Z:\home\yii-sto...', NULL, false)
+#14 Z:\home\yii-store.dev\www\protected\components\products\FeaturedProducts.php(30): CWidget->render('featured')
+#15 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(174): FeaturedProducts->run()
+#16 Z:\home\yii-store.dev\www\themes\classic\views\site\index.php(11): CBaseController->widget('FeaturedProduct...', Array)
+#17 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(127): require('Z:\home\yii-sto...')
+#18 Z:\home\yii-store.dev\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\yii-sto...', NULL, true)
+#19 Z:\home\yii-store.dev\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\yii-sto...', NULL, true)
+#20 Z:\home\yii-store.dev\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#21 Z:\home\yii-store.dev\www\protected\controllers\SiteController.php(33): CController->render('index')
+#22 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#23 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#24 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#25 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('')
+#27 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#28 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#30 {main}
+REQUEST_URI=/
+---
+2012/03/28 11:56:37 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Cart.items".' in Z:\home\yii-store.dev\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(27): CComponent->__get('items')
+#1 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): CartController->actionIndex()
+#2 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('index')
+#6 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/index')
+#7 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#9 {main}
+REQUEST_URI=/cart/index
+HTTP_REFERER=http://yii-store.dev/
+---
+2012/03/28 11:57:47 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:21) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 11:58:10 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:21) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 11:58:11 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:21) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 11:59:36 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:21) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 11:59:55 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:76) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 11:59:56 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:76) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:00:04 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:76) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:00:06 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:76) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:00:08 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:76) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=2
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:02:10 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:45) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=1
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:03:31 [error] [php] array_keys() expects parameter 1 to be array, integer given (Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:24)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CWebApplication->getComponent()
+#1 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(27): CWebApplication->__get()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): CartController->actionIndex()
+#3 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#6 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/index
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (24)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (27)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:17:41 [error] [php] array_keys() expects parameter 1 to be array, integer given (Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:24)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CWebApplication->getComponent()
+#1 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(27): CWebApplication->__get()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(50): CartController->actionIndex()
+#3 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#6 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/index
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (24)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (27)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:18:16 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:69) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=1
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:18:33 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:70) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=1
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:19:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1.
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (39)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (20)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:19:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), false)
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1422): CActiveRecord->query(Object(CDbCriteria))
+#6 Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php(39): CActiveRecord->findByPk(Array)
+#7 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): Cart->init()
+#8 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CModule->getComponent('cart')
+#9 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(20): CModule->__get('cart')
+#10 [internal function]: CartController->actionCreate('1', 1)
+#11 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('create')
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/create')
+#18 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#20 {main}
+REQUEST_URI=/cart/create?variant=1
+HTTP_REFERER=http://yii-store.dev/category/1-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B
+---
+2012/03/28 12:20:07 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1.
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (40)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (20)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:20:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), false)
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1422): CActiveRecord->query(Object(CDbCriteria))
+#6 Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php(40): CActiveRecord->findByPk(Array)
+#7 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): Cart->init()
+#8 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CModule->getComponent('cart')
+#9 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(20): CModule->__get('cart')
+#10 [internal function]: CartController->actionCreate('1', 1)
+#11 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('create')
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/create')
+#18 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#20 {main}
+REQUEST_URI=/cart/create?variant=1
+HTTP_REFERER=http://yii-store.dev/category/1-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B
+---
+2012/03/28 12:20:20 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1.
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (40)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (20)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:20:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), false)
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1422): CActiveRecord->query(Object(CDbCriteria))
+#6 Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php(40): CActiveRecord->findByPk(Array)
+#7 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): Cart->init()
+#8 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CModule->getComponent('cart')
+#9 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(20): CModule->__get('cart')
+#10 [internal function]: CartController->actionCreate('1', 1)
+#11 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('create')
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/create')
+#18 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#20 {main}
+REQUEST_URI=/cart/create?variant=1
+HTTP_REFERER=http://yii-store.dev/category/1-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B
+---
+2012/03/28 12:20:21 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1.
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (40)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (20)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:20:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), false)
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1422): CActiveRecord->query(Object(CDbCriteria))
+#6 Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php(40): CActiveRecord->findByPk(Array)
+#7 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): Cart->init()
+#8 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CModule->getComponent('cart')
+#9 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(20): CModule->__get('cart')
+#10 [internal function]: CartController->actionCreate('1', 1)
+#11 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('create')
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/create')
+#18 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#20 {main}
+REQUEST_URI=/cart/create?variant=1
+HTTP_REFERER=http://yii-store.dev/category/1-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B
+---
+2012/03/28 12:20:50 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1.
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (40)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (20)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:20:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), false)
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1422): CActiveRecord->query(Object(CDbCriteria))
+#6 Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php(40): CActiveRecord->findByPk(Array)
+#7 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): Cart->init()
+#8 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CModule->getComponent('cart')
+#9 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(20): CModule->__get('cart')
+#10 [internal function]: CartController->actionCreate('1', 1)
+#11 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('create')
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/create')
+#18 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#20 {main}
+REQUEST_URI=/cart/create?variant=1
+HTTP_REFERER=http://yii-store.dev/category/1-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B
+---
+2012/03/28 12:21:12 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1.
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (40)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (20)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:21:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' , , , , , , ))) ORDER BY image.position' at line 1. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (`product`.`id` IN (, , , , , , , ))) ORDER BY image.position. Bound with :status=1' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), false)
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1422): CActiveRecord->query(Object(CDbCriteria))
+#6 Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php(40): CActiveRecord->findByPk(Array)
+#7 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): Cart->init()
+#8 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CModule->getComponent('cart')
+#9 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(20): CModule->__get('cart')
+#10 [internal function]: CartController->actionCreate('3', 1)
+#11 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('create')
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/create')
+#18 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#20 {main}
+REQUEST_URI=/cart/create?variant=3
+HTTP_REFERER=http://yii-store.dev/category/1-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B
+---
+2012/03/28 12:22:44 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php:35) (Z:\home\yii-store.dev\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(21): CartController->redirect()
+#1 unknown(0): CartController->actionCreate()
+#2 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CartController->runAction()
+#6 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CartController->runActionWithFilters()
+#7 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CartController->run()
+#8 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\yii-store.dev\www\index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/create?variant=3
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (21)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:23:19 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous. Выполнявшийся SQL-запрос: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (id IN (:ycp2, :ycp3))) ORDER BY image.position. Bound with :status=1, :ycp2='1', :ycp3='2'.
+in Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php (42)
+in Z:\home\yii-store.dev\www\protected\controllers\CartController.php (20)
+in Z:\home\yii-store.dev\www\index.php (28)
+2012/03/28 12:23:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous. The SQL statement executed was: SELECT `product`.`id` AS `t0_c0`, `product`.`brand_id` AS `t0_c1`, `product`.`name` AS `t0_c2`, `product`.`annotation` AS `t0_c3`, `product`.`body` AS `t0_c4`, `product`.`status` AS `t0_c5`, `product`.`position` AS `t0_c6`, `product`.`meta_title` AS `t0_c7`, `product`.`meta_keywords` AS `t0_c8`, `product`.`meta_description` AS `t0_c9`, `product`.`create_time` AS `t0_c10`, `product`.`update_time` AS `t0_c11`, `product`.`featured` AS `t0_c12`, `image`.`id` AS `t1_c0`, `image`.`name` AS `t1_c1`, `image`.`product_id` AS `t1_c2`, `image`.`file` AS `t1_c3`, `image`.`position` AS `t1_c4` FROM `product` `product`  LEFT OUTER JOIN `image` `image` ON (`image`.`product_id`=`product`.`id`)  WHERE ((product.status = :status) AND (id IN (:ycp2, :ycp3))) ORDER BY image.position. Bound with :status=1, :ycp2='1', :ycp3='2'' in Z:\home\yii-store.dev\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 Z:\home\yii-store.dev\www\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 Z:\home\yii-store.dev\www\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 Z:\home\yii-store.dev\www\protected\extensions\cart\Cart.php(42): CActiveRecord->findAll(Object(CDbCriteria))
+#7 Z:\home\yii-store.dev\www\framework\base\CModule.php(388): Cart->init()
+#8 Z:\home\yii-store.dev\www\framework\base\CModule.php(104): CModule->getComponent('cart')
+#9 Z:\home\yii-store.dev\www\protected\controllers\CartController.php(20): CModule->__get('cart')
+#10 [internal function]: CartController->actionCreate('3', 1)
+#11 Z:\home\yii-store.dev\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#12 Z:\home\yii-store.dev\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#13 Z:\home\yii-store.dev\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 Z:\home\yii-store.dev\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 Z:\home\yii-store.dev\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('create')
+#17 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/create')
+#18 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#20 {main}
+REQUEST_URI=/cart/create?variant=3
+HTTP_REFERER=http://yii-store.dev/category/1-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B
+---
+2012/03/28 12:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:39:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:39:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:43:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:43:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:44:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "{$image->filename|resize:50:50}".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('{$image->filena...')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('{$image->filena...')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/{$image->f...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/%7B$image-%3Efilename|resize:50:50%7D
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:54:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 12:54:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "design".' in Z:\home\yii-store.dev\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\yii-store.dev\www\framework\web\CController.php(271): CController->missingAction('design')
+#1 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(276): CController->run('design')
+#2 Z:\home\yii-store.dev\www\framework\web\CWebApplication.php(135): CWebApplication->runController('cart/design/{$s...')
+#3 Z:\home\yii-store.dev\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\yii-store.dev\www\index.php(28): CApplication->run()
+#5 {main}
+REQUEST_URI=/cart/design/%7B$settings-%3Etheme%7D/images/delete.png
+HTTP_REFERER=http://yii-store.dev/cart/index
+---
+2012/03/28 19:36:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection не удалось открыть соединение с базой данных: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /Applications/MAMP/htdocs/yii-store/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Applications/MAMP/htdocs/yii-store/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Applications/MAMP/htdocs/yii-store/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Page))
+#7 /Applications/MAMP/htdocs/yii-store/protected/models/Page.php(12): CActiveRecord::model('Page')
+#8 /Applications/MAMP/htdocs/yii-store/protected/components/Controller.php(36): Page::model()
+#9 /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php(112): Controller->getPage()
+#10 /Applications/MAMP/htdocs/yii-store/themes/classic/views/site/index.php(1): CComponent->__get('page')
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', NULL, true)
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', NULL, true)
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#15 /Applications/MAMP/htdocs/yii-store/protected/controllers/SiteController.php(33): CController->render('index')
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#19 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('')
+#21 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#22 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#24 {main}
+REQUEST_URI=/
+---
+2012/03/28 20:21:49 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-store/themes/classic/views/cart/index.php:138)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CartController->renderFile()
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CartController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php(35): CartController->render()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): CartController->actionIndex()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CartController->runAction()
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CartController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CartController->run()
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-store/index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/index
+in /Applications/MAMP/htdocs/yii-store/themes/classic/views/cart/index.php (138)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (35)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:22:19 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Order.text".' in /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(144): CComponent->__get('text')
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/helpers/CHtml.php(2044): CActiveRecord->__get('text')
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/helpers/CHtml.php(1258): CHtml::resolveValue(Object(Order), 'text')
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CActiveForm.php(620): CHtml::activeTextArea(Object(Order), 'text', Array)
+#4 /Applications/MAMP/htdocs/yii-store/themes/classic/views/cart/index.php(143): CActiveForm->textArea(Object(Order), 'text', Array)
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#9 /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php(35): CController->render('index', Array)
+#10 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): CartController->actionIndex()
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('index')
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('cart/index')
+#16 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#18 {main}
+REQUEST_URI=/cart/index
+HTTP_REFERER=http://yii-store/product/34-%D0%9C%D0%B8%D0%BA%D1%81%D0%B5%D1%80+Zelmer+481.67
+---
+2012/03/28 20:23:04 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Order.name".' in /Applications/MAMP/htdocs/yii-store/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/db/ar/CActiveRecord.php(144): CComponent->__get('name')
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/helpers/CHtml.php(2044): CActiveRecord->__get('name')
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/helpers/CHtml.php(1774): CHtml::resolveValue(Object(Order), 'name')
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/helpers/CHtml.php(1205): CHtml::activeInputField('text', Object(Order), 'name', Array)
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/widgets/CActiveForm.php(575): CHtml::activeTextField(Object(Order), 'name', Array)
+#5 /Applications/MAMP/htdocs/yii-store/themes/classic/views/cart/index.php(142): CActiveForm->textField(Object(Order), 'name')
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(127): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#10 /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php(35): CController->render('index', Array)
+#11 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): CartController->actionIndex()
+#12 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CController->run('index')
+#16 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController('cart/index')
+#17 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/yii-store/index.php(28): CApplication->run()
+#19 {main}
+REQUEST_URI=/cart/index
+HTTP_REFERER=http://yii-store/product/34-%D0%9C%D0%B8%D0%BA%D1%81%D0%B5%D1%80+Zelmer+481.67
+---
+2012/03/28 20:26:04 [error] [php] Undefined variable: form (/Applications/MAMP/htdocs/yii-store/themes/classic/views/cart/index.php:106)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CartController->renderFile()
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CartController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php(35): CartController->render()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): CartController->actionIndex()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CartController->runAction()
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CartController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CartController->run()
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-store/index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/index
+in /Applications/MAMP/htdocs/yii-store/themes/classic/views/cart/index.php (106)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (35)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:26:05 [error] [php] Undefined variable: form (/Applications/MAMP/htdocs/yii-store/themes/classic/views/cart/index.php:106)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(870): CartController->renderFile()
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(783): CartController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php(35): CartController->render()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): CartController->actionIndex()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CartController->runAction()
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CartController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CartController->run()
+#8 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-store/index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/index
+in /Applications/MAMP/htdocs/yii-store/themes/classic/views/cart/index.php (106)
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (35)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:29:40 [warning] [application] Не удалось присвоить небезопасный атрибут "comment" класса "Order".
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (20)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:29:52 [warning] [application] Не удалось присвоить небезопасный атрибут "comment" класса "Order".
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (20)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:34:43 [warning] [application] Не удалось присвоить небезопасный атрибут "comment" класса "Order".
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (20)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:35:12 [warning] [application] Не удалось присвоить небезопасный атрибут "comment" класса "Order".
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (20)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:35:44 [warning] [application] Не удалось присвоить небезопасный атрибут "comment" класса "Order".
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (20)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:35:47 [warning] [application] Не удалось присвоить небезопасный атрибут "comment" класса "Order".
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (20)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:44:43 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php:30) (/Applications/MAMP/htdocs/yii-store/framework/web/CHttpRequest.php:716)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php(34): CartController->redirect()
+#1 /Applications/MAMP/htdocs/yii-store/framework/web/actions/CInlineAction.php(50): CartController->actionIndex()
+#2 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(287): CartController->runAction()
+#4 /Applications/MAMP/htdocs/yii-store/framework/web/CController.php(266): CartController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(276): CartController->run()
+#6 /Applications/MAMP/htdocs/yii-store/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/yii-store/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/yii-store/index.php(28): CWebApplication->run()
+REQUEST_URI=/cart/index
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (34)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)
+2012/03/28 20:45:15 [warning] [application] Не удалось присвоить небезопасный атрибут "comment" класса "Order".
+in /Applications/MAMP/htdocs/yii-store/protected/controllers/CartController.php (20)
+in /Applications/MAMP/htdocs/yii-store/index.php (28)

@@ -103,17 +103,26 @@ class ProductController extends Controller
 			$products = array();
 			foreach (Product::model()->findAll($criteria) as $model)
 			{
-				// todo: подлючить картинки
 				$products[] = array(
 					'label' => $model->name,
 					'url' => $model->url,
-					'image' => $model->images[0]->file,
+					'image' => $model->images[0]->getImage(35, 35, $model->name),
 				);
 			}
 
 			echo CJSON::encode($products);
 
 			Yii::app()->end();
+		}
+
+		$criteria = new CDbCriteria;
+		$criteria->with = array('images');
+		$criteria->compare('product.name', $term, true);
+
+		$products = Product::model()->findAll($criteria);
+
+		if (count($products) == 1) {
+			$this->redirect($products[0]->url);
 		}
 	}
 

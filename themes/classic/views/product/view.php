@@ -14,7 +14,7 @@
 <div class="product">
 
 	<!-- Большое фото -->
-	<?php if ($product->images): ?>
+	<?php if (count($product->images)): ?>
 	<div class="image">
 		<a href="<?php echo $product->images[0]->getSrc(800,600); ?>" class="zoom" data-rel="group">
 			<?php echo $product->images[0]->getImage(300,300,$product->name); ?>
@@ -32,7 +32,7 @@
 
 		<?php if (count($product->specifications) > 0): ?>
 		<!-- Выбор варианта товара -->
-		<form class="variants" action="/cart">
+		<form class="variants" action="/cart/create">
 			<table>
 				<?php foreach ($product->specifications as $key => $specification): ?>
 				<tr class="variant">
@@ -73,7 +73,8 @@
 	<!-- Дополнительные фото продукта -->
 	<?php if (count($product->images) > 1): ?>
 	<div class="images">
-		<?php foreach ($product->images as $image): ?>
+		<?php foreach ($product->images as $key => $image): ?>
+		<?php if ($key == 0): continue; endif; ?>
 		<a href="<?php echo $image->getSrc(800,600); ?>" class="zoom" data-rel="group">
 			<?php echo $image->getImage(95,95,$product->name); ?>
 		</a>
@@ -83,14 +84,14 @@
 	<!-- Дополнительные фото продукта (The End)-->
 
 
-	<?php if (count($product->features) > 0): ?>
+	<?php if (count($product->options)): ?>
 	<!-- Характеристики товара -->
 	<h2>Характеристики</h2>
 	<ul class="features">
-		<?php foreach ($product->features as $feature): ?>
+		<?php foreach ($product->options as $option): ?>
 		<li>
-			<label><?php echo $feature->name; ?></label>
-			<span><?php echo $feature->value; ?></span>
+			<label><?php echo $option->features->name; ?></label>
+			<span><?php echo $option->value; ?></span>
 		</li>
 		<?php endforeach; ?>
 	</ul>
@@ -113,19 +114,19 @@
 </div>
 <!-- Описание товара (The End)-->
 
-<?php if (count($product->related) > 0): ?>
+<?php if (count($product->related)): ?>
 <h2>Так же советуем посмотреть</h2>
 <!-- Список каталога товаров-->
 <ul class="tiny_products">
-	{foreach $related_products as $product}
+	<?php foreach ($product->related as $related): ?>
 	<!-- Товар-->
 	<li class="product">
 
 		<!-- Фото товара -->
-		<?php if (count($product->images) > 0): ?>
+		<?php if (count($related->relateds->images)): ?>
 		<div class="image">
-			<a href="<?php echo $product->url; ?>">
-				<?php echo CHtml::image($product->images[0]->file, CHtml::encode($product->name)); ?>
+			<a href="<?php echo $related->relateds->url; ?>">
+				<?php echo $related->relateds->images[0]->getImage(200,200,$related->relateds->name); ?>
 			</a>
 		</div>
 		<?php endif; ?>
@@ -134,41 +135,52 @@
 		<!-- Название товара -->
 		<h3>
 			<?php echo CHtml::link(CHtml::encode($product->name), $product->url, array(
-			'data-product' => $product->id,
-		)); ?>
+				'data-product' => $related->relateds->id,
+			)); ?>
 		</h3>
 		<!-- Название товара (The End) -->
 
-		{if $product->specifications|count > 0}
+		<?php if (count($related->relateds->specifications)): ?>
 		<!-- Выбор варианта товара -->
-		<form class="specifications" action="/cart">
+		<form class="variants" action="/cart/create">
 			<table>
-				{foreach $product->specifications as $v}
-				<tr class="specification">
+				<?php foreach ($related->relateds->specifications as $specification): ?>
+				<tr class="variant">
 					<td>
-						<input id="related_{$v->id}" name="specification" value="{$v->id}" type="radio" class="specification_radiobutton"  {if $v@first}checked{/if} {if $product->specifications|count<2} style="display:none;"{/if}/>
+						<?php echo CHtml::radioButton('variant', ($key == 0), array(
+						'id' => 'product_' . $specification->id,
+						'value' => $specification->id,
+						'class' => 'variant_radiobutton',
+						'style' => (count($related->relateds->specifications) < 2) ? 'display:none;' : '',
+					)); ?>
 					</td>
 					<td>
-						{if $v->name}<label class="specification_name" for="related_{$v->id}">{$v->name}</label>{/if}
+						<?php if ($specification->name): ?>
+						<?php echo CHtml::label($specification->name, 'featured_' . $specification->id, array(
+							'class' => 'variant_name',
+						)); ?>
+						<?php endif; ?>
 					</td>
 					<td>
-						{if $v->compare_price > 0}<span class="compare_price">{$v->compare_price|convert}</span>{/if}
-						<span class="price">{$v->price|convert} <span class="currency">{$currency->sign|escape}</span></span>
+						<?php if ($specification->compare_price > 0): ?>
+						<span class="compare_price"><?php echo $specification->compare_price; ?></span>
+						<?php endif; ?>
+						<span class="price"><?php echo $specification->price; ?> <span class="currency">руб</span></span>
 					</td>
 				</tr>
-				{/foreach}
+				<?php endforeach; ?>
 			</table>
 			<input type="submit" class="button" value="в корзину" data-result-text="добавлено"/>
 		</form>
 		<!-- Выбор варианта товара (The End) -->
-		{else}
+		<?php else: ?>
 		Нет в наличии
-		{/if}
+		<?php endif; ?>
 
 
 	</li>
 	<!-- Товар (The End)-->
-	{/foreach}
+	<?php endforeach; ?>
 </ul>
 <?php endif; ?>
 
@@ -176,7 +188,7 @@
 <div id="comments">
 
 	<h2>Комментарии</h2>
-	<?php if (count($product->comments) >= 1): ?>
+	<?php if (count($product->comments)): ?>
 	<?php $this->renderPartial('/comments/_view', array(
 		'model' => $product,
 		'comments' => $product->comments,

@@ -1,6 +1,6 @@
 <?php
 
-class ProductRelated extends CActiveRecord
+class ProductRelated extends ProductRelatedBase
 {
 
 	/**
