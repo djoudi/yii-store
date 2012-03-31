@@ -34,7 +34,8 @@ class Comment extends CommentBase
 		return CMap::mergeArray(
 			parent::attributeLabels(),
 			array(
-				'verifyCode' => 'Verification Code',
+				'name' => 'Имя',
+				'verifyCode' => 'Капча',
 			)
 		);
 	}

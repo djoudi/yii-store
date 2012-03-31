@@ -1,8 +1,7 @@
 <?php
 
-class Order extends CActiveRecord
+class Order extends OrderBase
 {
-
 	/**
 	 * @param string $className
 	 * @return Order
@@ -20,6 +19,8 @@ class Order extends CActiveRecord
 		return array(
 			// create
 			array('user_name, user_email, user_phone, user_address', 'required', 'on' => 'create'),
+			array('user_email', 'email', 'on' => 'create'),
+			array('delivery_id', 'exist', 'className' => 'Delivery', 'attributeName' => 'id', 'on' => 'create'),
 		);
 	}
 
@@ -54,10 +55,10 @@ class Order extends CActiveRecord
 
 				if (!Yii::app()->user->isGuest)
 					$this->user_id = Yii::app()->user->id;
-
 			}
 			else
 				$this->update_time = time();
+
 			return true;
 		}
 		else

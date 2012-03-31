@@ -40,17 +40,24 @@ abstract class ProductBase extends CActiveRecord
 	{
 		return array(
 			'brand' => array(self::BELONGS_TO, 'Brand', 'brand_id'),
-			'specifications' => array(self::HAS_MANY, 'Specification', 'product_id'),
-			'images' => array(self::HAS_MANY, 'Image', 'product_id'),
+			'variants' => array(self::HAS_MANY, 'ProductVariant', 'product_id',
+				'order' => 'product_variant.position',
+				'together' => false),
+			'images' => array(self::HAS_MANY, 'ProductImage', 'product_id',
+				'order' => 'product_image.position',
+				'together' => false),
 			'comments' => array(self::HAS_MANY, 'Comment', 'object_id',
-				'condition' => 'comment.type=:type',
+				'condition' => 'comment.type = :type',
 				'params' => array(':type' => Comment::TYPE_PRODUCT),
 				'order' => 'comment.create_time DESC',
 			),
 			'categories' => array(self::MANY_MANY, 'Category',
 				'product_category(product_id,category_id)'),
-			'options' => array(self::HAS_MANY, 'ProductFeature', 'product_id'),
-			'related' => array(self::HAS_MANY, 'ProductRelated', 'product_id'),
+			'features' => array(self::HAS_MANY, 'ProductFeature', 'product_id',
+				'together' => false),
+			'related' => array(self::HAS_MANY, 'ProductRelated', 'product_id',
+				'order' => 'product_related.position',
+				'together' => false),
 		);
 	}
 

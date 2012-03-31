@@ -1,17 +1,20 @@
 <h1>
-	<?php if (count($purchases)): ?>
-	В корзине <?php echo $totalProducts; ?> товаров
+	<?php if (count(Yii::app()->cart->purchases)): ?>
+	В корзине <?php echo Yii::app()->cart->totalProducts; ?> товаров
 	<?php else: ?>
 	Корзина пуста
 	<?php endif; ?>
 </h1>
 
-<?php if (count($purchases)): ?>
-<form method="post" name="cart">
+<?php if (count(Yii::app()->cart->purchases)): ?>
+<?php $form = $this->beginWidget('CActiveForm', array(
+	'id' => 'order-form',
+	'enableAjaxValidation' => true,
+)); ?>
 
 	<table id="purchases">
 
-		<?php foreach ($purchases as $purchase): ?>
+		<?php foreach (Yii::app()->cart->purchases as $purchase): ?>
 		<tr>
 			<td class="image">
 				<?php if (count($purchase['product']->images)): ?>
@@ -23,27 +26,30 @@
 
 			<td class="name">
 				<a href="<?php echo $purchase['product']->url; ?>"><?php echo CHtml::encode($purchase['product']->name); ?></a>
-				<?php echo CHtml::encode($purchase['specification']->name); ?>
+				<?php echo CHtml::encode($purchase['variant']->name); ?>
 			</td>
 
 			<td class="price">
-				<?php echo $purchase['specification']->price; ?> руб
+				<?php echo Yii::app()->money->convert($purchase['variant']->price); ?>
+				<?php echo Yii::app()->money->current->sign; ?>
 			</td>
 
 			<td class="amount">
-				<select name="amounts[<?php echo $purchase['specification']->id; ?>]" onchange="document.cart.submit();">
-					<?php for ($i=0; $i<$purchase['specification']->stock; $i++): ?>
+				<select name="amounts[<?php echo $purchase['variant']->id; ?>]" onchange="document.order-form.submit();">
+					<?php for ($i=0; $i<$purchase['variant']->stock; $i++): ?>
+					<?php if ($i==0): continue; endif; ?>
 					<option value="<?php echo $i; ?>" <?php if ($purchase['amount']==$i): ?>selected<?php endif; ?>><?php echo $i; ?> шт</option>
 					<?php endfor; ?>
 				</select>
 			</td>
 
 			<td class="price">
-				<?php echo $purchase['specification']->price * $purchase['amount']; ?> руб
+				<?php echo Yii::app()->money->convert($purchase['variant']->price * $purchase['amount']); ?>
+				<?php echo Yii::app()->money->current->sign; ?>
 			</td>
 
 			<td class="remove">
-				<a href="/cart/delete/<?php echo $purchase['specification']->id; ?>">
+				<a href="/cart/delete/<?php echo $purchase['variant']->id; ?>">
 					<img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/delete.png" title="Удалить из корзины" alt="Удалить из корзины">
 				</a>
 			</td>
@@ -68,48 +74,47 @@
 			<th class="name"></th>
 			<th class="price" colspan="4">
 				Итого
-				<?php echo $totalPrice; ?>
-				руб
+				<?php echo Yii::app()->money->convert(Yii::app()->cart->totalPrice); ?>
+				<?php echo Yii::app()->money->current->sign; ?>
 			</th>
 		</tr>
 	</table>
-</form>
-	<?php if (count($deliveries)): ?>
+
+
+	<?php if ($deliveries): ?>
 	<h2>Выберите способ доставки:</h2>
 	<ul id="deliveries">
 		<?php foreach ($deliveries as $key => $delivery): ?>
 		<li>
 			<div class="checkbox">
-				<input type="radio" name="delivery_id" value="{$delivery->id}" {if $delivery@first}checked{/if} id="deliveries_{$delivery->id}">
+				<?php echo $form->radioButton($order, 'delivery_id', array(
+					'value' => $delivery->id,
+					'checked' => ($key==0)?'checked':'',
+					'id' => 'deliveries_'.$delivery->id,
+				)); ?>
 			</div>
 
 			<h3>
-				<label for="deliveries_{$delivery->id}">
-					{$delivery->name}
-					{if $cart->total_price < $delivery->free_from && $delivery->price>0}
-					({$delivery->price|convert}&nbsp;{$currency->sign})
-					{elseif $cart->total_price >= $delivery->free_from}
-					(бесплатно)
-					{/if}
+				<label for="deliveries_<?php echo $delivery->id?>">
+					<?php echo $delivery->name; ?>
+					<?php if ($delivery->price>0): ?>
+					(<?php echo $delivery->price; ?> руб)
+					<?php endif; ?>
 				</label>
 			</h3>
 			<div class="description">
-				{$delivery->description}
+				<?php echo $delivery->description; ?>
 			</div>
 		</li>
 		<?php endforeach; ?>
 	</ul>
 	<?php endif; ?>
 
-	<?php $form = $this->beginWidget('CActiveForm', array(
-		'id' => 'order-form',
-		'enableAjaxValidation' => true,
-	)); ?>
 	<h2>Адрес получателя</h2>
 
-	<?php echo $form->errorSummary($order); ?>
-
 	<div class="form cart_form">
+		<?php echo $form->errorSummary($order); ?>
+
 		<?php echo $form->labelEx($order, 'user_name'); ?>
 		<?php echo $form->textField($order, 'user_name'); ?>
 
@@ -126,11 +131,12 @@
 		<?php echo $form->textArea($order, 'comment'); ?>
 
 		<?php echo CHtml::submitButton('Оформить заказ', array(
+			'name' => 'checkout',
 			'class' => 'button',
 		)); ?>
 	</div>
+<?php $this->endWidget(); ?>
 
-	<?php $this->endWidget(); ?>
 <?php else: ?>
 В корзине нет товаров
 <?php endif; ?>

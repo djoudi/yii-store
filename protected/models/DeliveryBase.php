@@ -15,6 +15,8 @@
 abstract class DeliveryBase extends CActiveRecord
 {
 
+	const STATUS_DISABLED = 0;
+	const STATUS_ENABLED = 1;
 
 	/**
 	 * @return string
@@ -25,7 +27,7 @@ abstract class DeliveryBase extends CActiveRecord
 	}
 
 	/**
-	 * @return array relational rules.
+	 * @return array
 	 */
 	public function relations()
 	{
@@ -46,6 +48,16 @@ abstract class DeliveryBase extends CActiveRecord
 			'status' => 'Status',
 			'position' => 'Position',
 			'separate' => 'Separate',
+		);
+	}
+
+	/**
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return array(
+			'alias' => $this->tableName(),
 		);
 	}
 

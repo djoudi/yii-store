@@ -6,19 +6,13 @@
 <?php endif; ?>
 
 <!-- Рекомендуемые товары -->
-<?php $this->widget('FeaturedProducts', array(
-	'limit' => Yii::app()->params['featuredProductsLimit'],
-)); ?>
+<?php $this->widget('FeaturedProducts'); ?>
 <!-- Рекомендуемые товары (The End)-->
 
 <!-- Новинки -->
-<?php $this->widget('CreatedProducts', array(
-	'limit' => Yii::app()->params['newProductsLimit'],
-)); ?>
+<?php $this->widget('CreatedProducts'); ?>
 <!-- Новинки (The End)-->
 
 <!-- Акционные товары -->
-<?php $this->widget('DiscountedProducts', array(
-	'limit' => Yii::app()->params['discountedProductsLimit'],
-)); ?>
+<?php $this->widget('DiscountedProducts'); ?>
 <!-- Акционные товары (The End)-->

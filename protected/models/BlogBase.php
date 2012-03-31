@@ -37,7 +37,7 @@ abstract class BlogBase extends CActiveRecord
 	{
 		return array(
 			'comments' => array(self::HAS_MANY, 'Comment', 'object_id',
-				'condition' => 'comment.type=:type',
+				'condition' => 'comment.type = :type',
 				'params' => array(':type' => Comment::TYPE_BLOG),
 				'order' => 'comment.create_time DESC',
 			),

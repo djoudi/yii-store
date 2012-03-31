@@ -10,43 +10,6 @@ class CartController extends CController
 {
 
 	/**
-	 *
-	 */
-	public function actionIndex()
-	{
-		$order = new Order('create');
-		if (isset($_POST['Order']))
-		{
-			$order->attributes = $_POST['Order'];
-			if ($order->save())
-			{
-				$this->refresh();
-			}
-		}
-		elseif (isset($_POST['amounts']))
-		{
-			if (is_array($_POST['amounts']))
-			{
-				foreach ($_POST['amounts'] as $specificationId => $amount)
-					Yii::app()->cart->update($specificationId, $amount);
-
-				$this->redirect('/cart/index');
-			}
-		}
-
-		$this->render('index', array(
-			// корзина
-			'purchases' => Yii::app()->cart->purchases,
-			'totalPrice' => Yii::app()->cart->totalPrice,
-			'totalProducts' => Yii::app()->cart->totalProducts,
-			// доставка
-			'deliveries' => Delivery::model()->findAll(),
-			// заказ
-			'order' => $order,
-		));
-	}
-
-	/**
 	 * Добавление в корзину
 	 *
 	 * @param $variant
@@ -59,14 +22,64 @@ class CartController extends CController
 	}
 
 	/**
-	 * Добавление в корзину
+	 * Удаление позиции из корзины
 	 *
-	 * @param $variant
+	 * @param $id
 	 */
-	public function actionDelete($variant)
+	public function actionDelete($id)
 	{
-		Yii::app()->cart->delete($variant);
+		Yii::app()->cart->delete($id);
 		$this->redirect('/cart/index');
+	}
+
+	/**
+	 * Корзина товаров
+	 */
+	public function actionIndex()
+	{
+		$order = new Order('create');
+
+		// заказ
+		if (isset($_POST['Order']) && isset($_POST['checkout']))
+		{
+			$order->attributes = $_POST['Order'];
+			if ($order->save())
+			{
+				Yii::app()->session['orderId'] = $order->id;
+
+				foreach ($_POST['amounts'] as $variantId => $amount)
+				{
+					$purchase = new Purchase('create');
+					$purchase->order_id = $order->id;
+					$purchase->variant_id = $variantId;
+					$purchase->amount = $amount;
+					$purchase->save();
+				}
+
+				//  очищаем и переходим на заказ
+				Yii::app()->cart->deleteAll();
+				$this->redirect($this->createUrl('order/view', array(
+					'id' => $order->id,
+				)));
+			}
+		}
+		// обновление корзины
+		elseif (isset($_POST['amounts']) && is_array($_POST['amounts']))
+		{
+			foreach ($_POST['amounts'] as $variantId => $amount)
+				Yii::app()->cart->update($variantId, $amount);
+
+			$this->refresh();
+		}
+
+		$deliveries = Delivery::model()->findAll(array(
+			'order' => 'delivery.position',
+		));
+
+		$this->render('index', array(
+			'deliveries' => $deliveries,
+			'order' => $order,
+		));
 	}
 
 }

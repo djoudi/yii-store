@@ -36,6 +36,7 @@ class User extends UserBase
 			// Register
 			array('name, email, password', 'required', 'on' => 'register'),
 			array('email', 'email', 'on' => 'register'),
+			array('email', 'unique', 'on' => 'register'),
 			// profile
 			array('name, email', 'required', 'on' => 'profile'),
 			array('email', 'email', 'on' => 'profile'),

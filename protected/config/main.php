@@ -2,8 +2,14 @@
 
 return array(
 	'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
+
+	// default controller
 	'defaultController' => 'site',
+
+	// project name
 	'name' => 'My Yii Store',
+
+	// current theme
 	'theme' => 'classic',
 
 	// язык поумолчанию
@@ -17,10 +23,12 @@ return array(
 		'application.models.*',
 		'application.helpers.*',
 		'application.components.*',
+		'application.components.blog.*',
 		'application.components.toabao.*',
-		'application.components.products.*',
+		'application.components.product.*',
 	),
 
+	// modules
 	'modules' => array(
 
 	),
@@ -29,6 +37,9 @@ return array(
 	'components' => array(
 		'cart' => array(
 			'class' => 'application.extensions.cart.Cart',
+		),
+		'money' => array(
+			'class' => 'application.extensions.money.Money',
 		),
 		'taobao' => array(
 			'class' => 'application.extensions.taobao.TopClient',
@@ -72,16 +83,5 @@ return array(
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
-	'params' => array(
-		// this is used in contact page
-		'adminEmail' => 'webmaster@example.com',
-
-		'postsPageSize' => 10,
-		'recentPostsLimit' => 5,
-
-		'browsedProductsLimit' => 20,
-		'featuredProductsLimit' => 6,
-		'newProductsLimit' => 6,
-		'discountedProductsLimit' => 6,
-	),
+	'params' => require('params.php'),
 );

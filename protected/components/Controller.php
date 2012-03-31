@@ -24,11 +24,6 @@ class Controller extends CController
 	public $metaKeywords;
 
 	/**
-	 * @var string the canonical URL.
-	 */
-	public $canonical;
-
-	/**
 	 * @return mixed
 	 */
 	public function getPage()

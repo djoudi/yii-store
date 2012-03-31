@@ -2,7 +2,6 @@
 
 class Delivery extends DeliveryBase
 {
-
 	/**
 	 * @param string $className
 	 * @return Delivery
@@ -12,4 +11,19 @@ class Delivery extends DeliveryBase
 		return parent::model($className);
 	}
 
+	/**
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return CMap::mergeArray(
+			parent::defaultScope(),
+			array(
+				'condition' => 'delivery.status = :status',
+				'params' => array(
+					':status' => self::STATUS_ENABLED,
+				),
+			)
+		);
+	}
 }

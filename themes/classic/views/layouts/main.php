@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo Yii::app()->language; ?>">
 <head>
-	<meta charset="utf-8">
+	<meta charset="<?php echo Yii::app()->charset; ?>">
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/reset.css" rel="stylesheet">
@@ -25,7 +25,13 @@
 
 		<!-- Корзина -->
 		<div id="cart_informer">
+			<?php if (Yii::app()->cart->totalProducts > 0): ?>
+			В <a href="/cart/index">корзине</a>
+			<?php echo Yii::app()->cart->totalProducts; ?> товаров
+			на <?php echo Yii::app()->cart->totalPrice; ?> руб
+			<?php else: ?>
 			Корзина пуста
+			<?php endif; ?>
 		</div>
 		<!-- Корзина (The End)-->
 
@@ -54,11 +60,12 @@
 <div id="header">
 	<div id="logo">
 		<a href="<?php echo Yii::app()->homeUrl; ?>">
-			<?php echo CHtml::image(Yii::app()->theme->baseUrl. '/images/logo.png', Yii::app()->name); ?>
+			<?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/logo.png', Yii::app()->name); ?>
 		</a>
 	</div>
 	<div id="contact">
 		(095) <span id="phone">545-54-54</span>
+
 		<div id="address">Москва, шоссе Энтузиастов 45/31, офис 453</div>
 	</div>
 </div>
@@ -89,19 +96,26 @@
 		<!-- Все бренды (The End)-->
 
 		<!-- Выбор валюты -->
-		<?php $this->widget('CurrenciesMenu'); ?>
+		<?php if (count(Yii::app()->money->list)): ?>
+		<div id="currencies">
+			<h2>Валюта</h2>
+			<ul>
+				<?php foreach (Yii::app()->money->list as $currency): ?>
+				<li <?php if (Yii::app()->money->current->id == $currency->id): ?>class="selected"<?php endif; ?>>
+					<?php echo CHtml::link(CHtml::encode($currency->name), $currency->url); ?>
+				</li>
+				<?php endforeach; ?>
+			</ul>
+		</div>
+		<?php endif; ?>
 		<!-- Выбор валюты (The End) -->
 
 		<!-- Просмотренные товары -->
-		<?php $this->widget('BrowsedProducts', array(
-			'limit' => Yii::app()->params['browsedProductsLimit'],
-		)); ?>
+		<?php $this->widget('BrowsedProducts'); ?>
 		<!-- Просмотренные товары (The End)-->
 
 		<!-- Меню блога -->
-		<?php $this->widget('RecentPosts', array(
-			'limit' => Yii::app()->params['recentPostsLimit'],
-		)); ?>
+		<?php $this->widget('RecentPosts'); ?>
 		<!-- Меню блога (The End) -->
 
 	</div>

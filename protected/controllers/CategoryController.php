@@ -37,7 +37,7 @@ class CategoryController extends Controller
 			'criteria' => array(
 				'with' => array(
 					'images',
-					'specifications',
+					'variants',
 					'categories' => array(
 						'select' => false,
 						'together' => true,

@@ -23,18 +23,18 @@ class Cart extends CComponent
 			$sessionItems = Yii::app()->session['cart'];
 			$sessionItemsIds = array_keys($sessionItems);
 
-			$specificationsCriteria = new CDbCriteria;
-			$specificationsCriteria->addInCondition('specification.id', $sessionItemsIds);
-			$specifications = Specification::model()->findAll($specificationsCriteria);
+			$variantsCriteria = new CDbCriteria;
+			$variantsCriteria->addInCondition('product_variant.id', $sessionItemsIds);
+			$variants = ProductVariant::model()->findAll($variantsCriteria);
 
-			if (count($specifications))
+			if (count($variants))
 			{
 				$items = $productsIds = array();
-				foreach ($specifications as $specification)
+				foreach ($variants as $variant)
 				{
-					$items[$specification->id]['specification'] = $specification;
-					$items[$specification->id]['amount'] = $sessionItems[$specification->id];
-					$productsIds[] = $specification->product_id;
+					$items[$variant->id]['variant'] = $variant;
+					$items[$variant->id]['amount'] = $sessionItems[$variant->id];
+					$productsIds[] = $variant->product_id;
 				}
 
 				$productsCriteria = new CDbCriteria;
@@ -43,18 +43,18 @@ class Cart extends CComponent
 				foreach (Product::model()->findAll($productsCriteria) as $product)
 					$products[$product->id] = $product;
 
-				foreach ($items as $specificationId => $item)
+				foreach ($items as $variantId => $item)
 				{
 					$purchase = array();
 
-					if (isset($products[$item['specification']->product_id]))
+					if (isset($products[$item['variant']->product_id]))
 					{
-						$purchase['product'] = $products[$item['specification']->product_id];
-						$purchase['specification'] = $item['specification'];
+						$purchase['product'] = $products[$item['variant']->product_id];
+						$purchase['variant'] = $item['variant'];
 						$purchase['amount'] = $item['amount'];
 
 						$this->_purchases[] = $purchase;
-						$this->_totalPrice += $item['specification']->price * $item['amount'];
+						$this->_totalPrice += $item['variant']->price * $item['amount'];
 						$this->_totalProducts += $item['amount'];
 					}
 				}
@@ -65,24 +65,24 @@ class Cart extends CComponent
 	/**
 	 * Добавление товара в корзину
 	 *
-	 * @param $specificationId
+	 * @param $variantId
 	 * @param int $amount
 	 */
-	public function create($specificationId, $amount = 1)
+	public function create($variantId, $amount = 1)
 	{
 		$amount = max(1, intval($amount));
 
-		if (isset(Yii::app()->session['cart'][$specificationId]))
-			$amount = max(1, $amount + Yii::app()->session['cart'][$specificationId]);
+		if (isset(Yii::app()->session['cart'][$variantId]))
+			$amount = max(1, $amount + Yii::app()->session['cart'][$variantId]);
 
-		$specification = Specification::model()->findByPk($specificationId);
+		$variant = ProductVariant::model()->findByPk($variantId);
 
-		if ($specification && $specification->stock > 0)
+		if ($variant && $variant->stock > 0)
 		{
-			$amount = min($amount, $specification->stock);
+			$amount = min($amount, $variant->stock);
 
 			$cart = Yii::app()->session['cart'];
-			$cart[$specification->id] = $amount;
+			$cart[$variant->id] = $amount;
 			Yii::app()->session['cart'] = $cart;
 		}
 	}
@@ -90,21 +90,21 @@ class Cart extends CComponent
 	/**
 	 * Обновление кол-ва товара
 	 *
-	 * @param $specificationId
+	 * @param $variantId
 	 * @param int $amount
 	 */
-	public function update($specificationId, $amount = 1)
+	public function update($variantId, $amount = 1)
 	{
 		$amount = max(1, intval($amount));
 
-		$specification = Specification::model()->findByPk($specificationId);
+		$variant = ProductVariant::model()->findByPk($variantId);
 
-		if ($specification && $specification->stock > 0)
+		if ($variant && $variant->stock > 0)
 		{
-			$amount = min($amount, $specification->stock);
+			$amount = min($amount, $variant->stock);
 
 			$cart = Yii::app()->session['cart'];
-			$cart[$specification->id] = $amount;
+			$cart[$variant->id] = $amount;
 			Yii::app()->session['cart'] = $cart;
 		}
 	}
@@ -112,13 +112,21 @@ class Cart extends CComponent
 	/**
 	 * Удаление товара из корзины
 	 *
-	 * @param $specificationId
+	 * @param $variantId
 	 */
-	public function delete($specificationId)
+	public function delete($variantId)
 	{
 		$cart = Yii::app()->session['cart'];
-		unset($cart[$specificationId]);
+		unset($cart[$variantId]);
 		Yii::app()->session['cart'] = $cart;
+	}
+
+	/**
+	 * Очистка корзины
+	 */
+	public function deleteAll()
+	{
+		unset(Yii::app()->session['cart']);
 	}
 
 	/**

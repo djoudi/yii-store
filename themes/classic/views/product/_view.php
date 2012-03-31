@@ -28,32 +28,35 @@
 		</div>
 		<!-- Описание товара (The End) -->
 
-		<?php if (count($data->specifications) > 0): ?>
+		<?php if (count($data->variants) > 0): ?>
 		<!-- Выбор варианта товара -->
 		<form class="variants" action="/cart/create">
 			<table>
-				<?php foreach ($data->specifications as $key => $specification): ?>
+				<?php foreach ($data->variants as $key => $variant): ?>
 				<tr class="variant">
 					<td>
 						<?php echo CHtml::radioButton('variant', ($key == 0), array(
-						'id' => 'variant_' . $specification->id,
-						'value' => $specification->id,
+						'id' => 'variant_' . $variant->id,
+						'value' => $variant->id,
 						'class' => 'variant_radiobutton',
-						'style' => (count($data->specifications) < 2) ? 'display:none;' : '',
+						'style' => (count($data->variants) < 2) ? 'display:none;' : '',
 					)); ?>
 					</td>
 					<td>
-						<?php if ($specification->name): ?>
-						<?php echo CHtml::label($specification->name, 'variant_' . $specification->id, array(
+						<?php if ($variant->name): ?>
+						<?php echo CHtml::label($variant->name, 'variant_' . $variant->id, array(
 							'class' => 'variant_name',
 						)); ?>
 						<?php endif; ?>
 					</td>
 					<td>
-						<?php if ($specification->compare_price > 0): ?>
-						<span class="compare_price"><?php echo $specification->compare_price; ?></span>
+						<?php if ($variant->compare_price > 0): ?>
+						<span class="compare_price"><?php echo Yii::app()->money->convert($variant->compare_price); ?></span>
 						<?php endif; ?>
-						<span class="price"><?php echo $specification->price; ?> <span class="currency">руб</span></span>
+						<span class="price">
+							<?php echo Yii::app()->money->convert($variant->price); ?>
+							<span class="currency"><?php echo Yii::app()->money->current->sign; ?></span>
+						</span>
 					</td>
 				</tr>
 				<?php endforeach; ?>

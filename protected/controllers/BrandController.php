@@ -27,7 +27,7 @@ class BrandController extends Controller
 
 		$products = new CActiveDataProvider('Product', array(
 			'criteria' => array(
-				'with' => array('specifications', 'images'),
+				'with' => array('variants', 'images'),
 				'condition' => 'product.brand_id = :brand_id',
 				'params' => array(':brand_id' => $id),
 			),

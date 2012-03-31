@@ -44,6 +44,10 @@ abstract class OrderBase extends CActiveRecord
 	public function relations()
 	{
 		return array(
+			'purchases' => array(self::HAS_MANY, 'Purchase', 'order_id'),
+			'delivery' => array(self::BELONGS_TO, 'Delivery', 'delivery_id'),
+			'payment' => array(self::BELONGS_TO, 'Payment', 'payment_id'),
+			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
 		);
 	}
 
@@ -75,6 +79,16 @@ abstract class OrderBase extends CActiveRecord
 			'discount' => 'Discount',
 			'separate_delivery' => 'Separate Delivery',
 			'update_time' => 'Update Time',
+		);
+	}
+
+	/**
+	 * @return array
+	 */
+	public function defaultScope()
+	{
+		return array(
+			'alias' => $this->tableName(),
 		);
 	}
 

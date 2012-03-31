@@ -33,8 +33,8 @@ class Currency extends CurrencyBase
 	 */
 	public function getUrl()
 	{
-		return Yii::app()->createUrl(Yii::app()->request->url, array(
-			'currency_id' => $this->id,
+		return Yii::app()->createUrl('site/index', array(
+			'currencyId' => $this->id,
 		));
 	}
 

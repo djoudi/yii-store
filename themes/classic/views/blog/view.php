@@ -2,7 +2,7 @@
 
 <!-- Заголовок /-->
 <h1 data-post="<?php echo $model->id; ?>"><?php echo CHtml::encode($model->name); ?></h1>
-<p><?php echo date('Y.m.d', $model->create_time); ?></p>
+<p><?php echo date(Yii::app()->params['dateFormat'], $model->create_time); ?></p>
 
 <!-- Тело поста /-->
 <?php $this->beginWidget('CHtmlPurifier'); ?>
@@ -41,13 +41,13 @@
 	<p>Пока нет комментариев</p>
 	<?php endif; ?>
 
-	<?php if(Yii::app()->user->hasFlash('commentSubmitted')): ?>
+	<?php if (Yii::app()->user->hasFlash('commentSubmitted')): ?>
 	<div class="success">
 		Комментарий добавлен
 	</div>
 	<?php else: ?>
-	<?php $this->renderPartial('/comments/_form',array(
-		'model'=>$comment,
+	<?php $this->renderPartial('/comments/_form', array(
+		'model' => $comment,
 	)); ?>
 	<?php endif; ?>
 
