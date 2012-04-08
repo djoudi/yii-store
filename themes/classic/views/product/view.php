@@ -32,7 +32,7 @@
 
 		<?php if (count($product->variants) > 0): ?>
 		<!-- Выбор варианта товара -->
-		<form class="variants" action="/cart">
+		<form class="variants" action="/cart/create">
 			<table>
 				<?php foreach ($product->variants as $key => $variant): ?>
 				<tr class="variant">
@@ -145,7 +145,7 @@
 
 		<?php if (count($related->relateds->variants)): ?>
 		<!-- Выбор варианта товара -->
-		<form class="variants" action="/cart">
+		<form class="variants" action="/cart/create">
 			<table>
 				<?php foreach ($related->relateds->variants as $variant): ?>
 				<tr class="variant">

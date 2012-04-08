@@ -2,6 +2,7 @@
 
 class Order extends OrderBase
 {
+
 	/**
 	 * @param string $className
 	 * @return Order
@@ -63,6 +64,57 @@ class Order extends OrderBase
 		}
 		else
 			return false;
+	}
+
+	/**
+	 * Добавление товаров к заказу
+	 *
+	 * @param $variantId
+	 * @param $amount
+	 * @return bool
+	 */
+	public function addPurchase($variantId, $amount)
+	{
+		// проверка варианта
+		$variant = ProductVariant::model()->findByPk($variantId);
+		if ($variant === null)
+			return false;
+
+		// проверка продукта
+		$product = Product::model()->findByPk($variant->product_id);
+		if ($product === null)
+			return false;
+
+		// новый заказанный продукт
+		$purchase = new Purchase('create');
+		$purchase->order_id = $this->id;
+
+		// инфо о варианте
+		$purchase->variant_id = $variant->id;
+		$purchase->variant_name = $variant->name;
+		$purchase->price = $variant->price;
+		$purchase->amount = $amount;
+
+		// инфо о продукте
+		$purchase->product_id = $product->id;
+		$purchase->product_name = $product->name;
+
+		return $purchase->save();
+	}
+
+	/**
+	 * Добавление информации о доставке
+	 *
+	 * @return bool
+	 */
+	public function updateDelivery()
+	{
+		$delivery = Delivery::model()->findByPk($this->delivery_id);
+		if ($delivery === null)
+			return false;
+		$this->delivery_price = $delivery->price;
+		$this->separate_delivery = $delivery->separate;
+		return $this->save();
 	}
 
 }

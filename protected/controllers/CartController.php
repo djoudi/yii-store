@@ -42,26 +42,41 @@ class CartController extends CController
 		// заказ
 		if (isset($_POST['Order']) && isset($_POST['checkout']))
 		{
-			$order->attributes = $_POST['Order'];
-			if ($order->save())
+			$transaction = $order->dbConnection->beginTransaction();
+			try
 			{
-				Yii::app()->session['orderId'] = $order->id;
-
-				foreach ($_POST['amounts'] as $variantId => $amount)
+				// Добавляем заказ в базу
+				$order->attributes = $_POST['Order'];
+				if ($order->validate())
 				{
-					$purchase = new Purchase('create');
-					$purchase->order_id = $order->id;
-					$purchase->variant_id = $variantId;
-					$purchase->amount = $amount;
-					$purchase->save();
+					$order->total_price = Yii::app()->cart->totalPrice;
+					$order->save(false);
+
+					// Добавляем товары к заказу
+					foreach ($_POST['amounts'] as $variantId => $amount)
+						$order->addPurchase($variantId, $amount);
+
+					// Стоимость доставки
+					$order->updateDelivery();
+
+					//  очищаем и переходим на заказ
+					Yii::app()->cart->deleteAll();
+
+					$transaction->commit();
+
+					// Перенаправляем на страницу заказа
+
 				}
 
-				//  очищаем и переходим на заказ
-				Yii::app()->cart->deleteAll();
-				$this->redirect($this->createUrl('order/view', array(
-					'id' => $order->id,
-				)));
 			}
+			catch (Exception $e)
+			{
+				$transaction->rollBack();
+
+				//you should do sth with this exception (at least log it or show on page)
+				Yii::log('Exception when saving data: ' . $e->getMessage(), CLogger::LEVEL_ERROR);
+			}
+
 		}
 		// обновление корзины
 		elseif (isset($_POST['amounts']) && is_array($_POST['amounts']))
