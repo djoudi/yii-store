@@ -65,7 +65,9 @@ class CartController extends CController
 					$transaction->commit();
 
 					// Перенаправляем на страницу заказа
-
+					$this->redirect('order/view', array(
+						'id' => $order->id,
+					));
 				}
 
 			}
